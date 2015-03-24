@@ -1,0 +1,3 @@
+Class-Path: /home/vanya/Documents/prog/Java/java-advanced-2015/artifacts/* /home/vanya/Documents/prog/Java/java-advanced-2015/lib/*
+Main-Class: ru.ifmo.ctddev.belonogov.implementor.Main
+

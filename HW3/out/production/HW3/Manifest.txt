@@ -1,0 +1,3 @@
+Main-Class: ru.ifmo.ctddev.belonogov.implementor.Main
+Class-Path:                         /home/vanya/Documents/prog/Java/java-advanced-2015/artifacts/ImplementorTest.jar /home/vanya/Documents/prog/Java/java-advanced-2015/lib/*
+
