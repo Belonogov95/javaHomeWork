@@ -1,7 +1,434 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5872e12-2971-41b1-a894-1deee3a47f3c" name="Default" comment="" />
+    <list default="true" id="bc02ebbb-a043-437a-815f-36eea201c903" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/1/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/1/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/1/a.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/1/a.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/1/b.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/1/b.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/Main$FastScanner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/RecursiveWalk.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/WalkTest.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test01_oneEmptyFile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test01_oneEmptyFile.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test01_oneEmptyFile/DtuwETjKgGcNSf3TmzLn9eiwU98R47" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test01_oneEmptyFile/YHydQJKIgfKWZgwNGpuM5yKXnINiDg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test02_tenEmptyFiles.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test02_tenEmptyFiles.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test02_tenEmptyFiles/10La7bw87niMu7SRrWZ3GguquE4k98" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test02_tenEmptyFiles/1iK7jLKJCUflQTiJMqecvy5OoZP8Li" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test02_tenEmptyFiles/B7mwHNGbaSzbIKYZXjVPkW882ThA92" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test02_tenEmptyFiles/BT5rEalYtor0UXNTBPaSlffHEueR9Y" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test02_tenEmptyFiles/IaeVxtOBt49XPD4OA7KyKXvcbQUJAf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test02_tenEmptyFiles/LU4kXtbL4J2vucSXzRfwZQKh2Pm2kL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test02_tenEmptyFiles/NHGDya5UaqoMwVPWD0O226tIgo7rte" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test02_tenEmptyFiles/NYREcymzLSrV1xSOV8qWuZDgJNFIeC" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test02_tenEmptyFiles/UTbISGX11wqT62Qcbc67u0bBBXM4SO" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test02_tenEmptyFiles/VGtuMxZZ6JR2mk1GHoxferhNCHeoEQ" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test02_tenEmptyFiles/WSffhn1VKQcE0IMAUjSUzJeS6oQEyc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test02_tenEmptyFiles/YZpq5lF8vc0ZBC64QBqLBErlNQBqqS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test02_tenEmptyFiles/dMC23y0Mjut3VsjLw2e6IUS7UaYcew" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test02_tenEmptyFiles/jHZ980bW9IIs9bs8aQVU74R3meWRGk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test02_tenEmptyFiles/jhpfYNlImkQsxguMpeFVHdWhSjFF5F" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test02_tenEmptyFiles/kNrv4cKnnEwGjKpRX4Ldjy1Wp4P2ti" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test02_tenEmptyFiles/lowjzeA7nUbZaKBL866DkHUarBnxHE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test02_tenEmptyFiles/mgN2WN548eA4Toq5GPUSEHR8x1jOJT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test02_tenEmptyFiles/sFY8VVaidrsLhiyw9HJhRctzo2Omta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test02_tenEmptyFiles/vH2zZuhrnAJAi6rHFBhf0tq8VSYr8O" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test03_missingFiles.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test03_missingFiles.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test03_missingFiles/9S3t8HBgetIwkg87YGLepvIvqIPCd3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test03_missingFiles/Ad2Pol949Cs7kDmJETGClu8WuHMqtc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test03_missingFiles/Fv2eflzmRWXJaD9CMPBDYerZyNj5k0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test03_missingFiles/JuL84aUmz5jeatnbhOaUX3aXO7GRKw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test03_missingFiles/ZXkwIqLGeF8heYNkDYPL8LcNnkih1d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test03_missingFiles/n6tBtBDGFGKOafbFc7SkfYT6n4bfyT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test04_errorReading.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test04_errorReading.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test04_errorReading/ExkVQr3C3O84TMjkzDE6k7KcB7GnqX" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test04_errorReading/IGrxsJMMRdr00MhtOc04XAtIX158s6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test04_errorReading/VT2T2sCnZWHfyNOlZ5PInm5qv4Mg3z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test04_errorReading/Yck24IiOfmMY2HaGQ1w3zRAmKicNzA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test04_errorReading/f0mtiLGeIpDVqSdhqzaGXgi4eP2GBY" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test04_errorReading/xV0ygFxAnQVfxYR2DCrwhURn8iOpwD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test05_smallRandomFiles.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test05_smallRandomFiles.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test05_smallRandomFiles/6bgevT5CK6Qg13tbOB9aVpS7azTvxv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test05_smallRandomFiles/CfXYejTpH3e6VnyBM0yWmNs5p3erfB" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test05_smallRandomFiles/E4Wj6YL1w1vnUSfHwRqil5oU7Up5Ae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test05_smallRandomFiles/EDpHqdyid3ko0sUMPqtpaxHafqpZXa" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test05_smallRandomFiles/FtOE7uiIZQhTx3hfxyUSPPew1smOac" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test05_smallRandomFiles/HFRSiHuPecmpTy1Jrb9TdMZQ4oNOPP" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test05_smallRandomFiles/K6omc0vJ35u1VAxNxpU1QLZjep7YpP" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test05_smallRandomFiles/ZQzUrHauB3rccUwo0Uc3mNhCzw59ur" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test05_smallRandomFiles/eWev0vxMKHP6zmIXVo2u5rfnZGkiIU" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test05_smallRandomFiles/liQCBFXXGwGzC9P3F8emK80RovpY8i" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test05_smallRandomFiles/yd4Iqok5m1b4wZXqQLCcX78OtXtLMW" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test06_mediumRandomFiles.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test06_mediumRandomFiles.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test06_mediumRandomFiles/3jP4Ejhvy0KPnapm0ZN9w4acyt2kpL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test06_mediumRandomFiles/5JnR17p1XvnI0R4tUb2FC4yGuVDWcl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test06_mediumRandomFiles/7QSddAiLOftVS3d7Qnz0O0SsdoTzc7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test06_mediumRandomFiles/AeS51We81OgDOnNR2kfvbBvxoLFovb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test06_mediumRandomFiles/Ao7SK6eYQ40eiqJvOboqxCmeGShMnx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test06_mediumRandomFiles/HBQ8SfFhFfhnmbso46H37PDpqn92Xo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test06_mediumRandomFiles/JMWnWNjSqhHYTDE7VkCNEm020XCx3N" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test06_mediumRandomFiles/LIeRmjebqaQ5aSF3lxaHkMg7g7EEd0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test06_mediumRandomFiles/P0t5AAkiNa5jozVvGfLnNMMTG5NkCz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test06_mediumRandomFiles/PZVGqB9zxjVfXkSlYWX1C5RkNzZNjW" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test06_mediumRandomFiles/Qf67kvTeJN9yZ3DUDAXfSZv1KE4tOO" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test06_mediumRandomFiles/V5cYegZMxgiF5clIa3CDmVFrUgHOYE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test06_mediumRandomFiles/VDGi1aHMJGgrb57lTNSgEUyvLBOtBH" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test06_mediumRandomFiles/VUC43JbAlNszSASTWFl1i7MJMK4MSQ" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test06_mediumRandomFiles/YdSNcdtYPVwHanxsToSI8bRdImG2PR" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test06_mediumRandomFiles/cKoJku9WjgvyZXbJ4kYXfkppR4gj5M" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test06_mediumRandomFiles/dfcU6SQH0Wee02IQutRc8lFHbrXZEU" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test06_mediumRandomFiles/eHh6OnW5RSTrAM4IlVL1Lr7FWUQfvW" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test06_mediumRandomFiles/nWGtp9pwMAYGj3p8wVX8PY9ul7rpjP" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test06_mediumRandomFiles/uBChOKOPkCxFMhTxogolxcsjo8SQRg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test07_largeRandomFiles.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test07_largeRandomFiles.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test07_largeRandomFiles/1VeyRlnjsaEIQPcy17xQqnE9teVHUo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test07_largeRandomFiles/9dFVbEYecmPek7O6sqxSlGLOTGfbDL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test07_largeRandomFiles/AFelPvpkSNeMsoF3ahBPvEIJ6ac7XJ" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test07_largeRandomFiles/CYwVnjYBWUxJtOULsVXBIypydJpXjI" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test07_largeRandomFiles/DxpmtwkSNhuZervqy80o8e1rYZVJgE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test07_largeRandomFiles/G5xVXwooqsDkbtjVZiuGLYjzwvHUxr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test07_largeRandomFiles/PzsxZ3lDs5lyLEco1ICqwHWGlwdpXT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test07_largeRandomFiles/ScZoFUJfhST8w9Bj8liP4A5M6jxS7K" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test07_largeRandomFiles/Uixtrir8PXNwcLCSfESAIL4dXdmrm7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test07_largeRandomFiles/Z63bCpSDxpRQNNDnfWE4y2BrkNbj0C" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test07_largeRandomFiles/cNunZXoYkSTBJTOXEv5EnoyRGjpe5o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test07_largeRandomFiles/fjdvHvZct8KC0rDJAbcREaR04bB4O2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test07_largeRandomFiles/k498owAgmYtImssK5uVG1JDoJ0Srqb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test07_largeRandomFiles/m5M1oJaHOAONt85XmlhFjJckZ72kcx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test07_largeRandomFiles/nM1xm8lYGdTreosVCuludB3mbvJ3WY" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test07_largeRandomFiles/rDzvy6cLeSXOcBWb5x1LMP60IiZlGE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test07_largeRandomFiles/rjKjq6zXJ5hkLm0nldDaxr1rRanWUQ" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test07_largeRandomFiles/vvhh9SaskyTtDyd9tzTMlDwxFjX4AR" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test07_largeRandomFiles/xhYfTWOELPyjm1kryt4W6hhw9pxnjZ" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test07_largeRandomFiles/zONPjXJthTZ3rM1RrOq5X1BL3EN2ql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test08_chineseSupport.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test08_chineseSupport.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test08_chineseSupport/中中序的中的的國國國中支你國你中國程請國持國持你序的程的持請" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test08_chineseSupport/中國序的請你你問中程中的你請請序中的中序持問的請國序國國國序" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test08_chineseSupport/中持中支持支持你序支支請程序持程問你序請你你問的中國國序中中" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test08_chineseSupport/中支序中的支持你持問持程的支的程國支序國你請支程的的問請國請" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test08_chineseSupport/你中持持請問你序問支程請問請問你的你程問程持中的的請持持支你" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test08_chineseSupport/你序中支程支中問中國國支你持中支持支國序問國國的序你持問序你" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test08_chineseSupport/你的序請你支程持國支中序問支支支的請序中中中國問請問序請中的" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test08_chineseSupport/你的支程你你支問問序支國程請持中程程程程國國問支國持程程你持" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test08_chineseSupport/你程國國國的序中國的你程問程序你你支持請國中請的中持支序序的" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test08_chineseSupport/問持問你序的序國支持請支持中持持請請問問支持的支請問請持你支" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test08_chineseSupport/國持程你問序你你持程程問序序問程支你問程你中請國中程問請的中" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test08_chineseSupport/序持你持請的的持的的持支序的請支序國請中序序問請支問持請問國" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test08_chineseSupport/序請國請中你中請中支序國支國問請你持程程的問問序請問序問程中" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test08_chineseSupport/持國支你請支程程持問程持國程你支你請國支持持你序問請問問國序" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test08_chineseSupport/支序持持程請請請程支國中程序程序支程支程請序國你持你持問問支" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test08_chineseSupport/支的支支持的請問支序國國國國問問序支持支問中你序序國持請請持" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test08_chineseSupport/的你序序請持問的支程請請序序中序的序問你國序中請的中支你支的" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test08_chineseSupport/的國序國支問的中的國序程持序請的問的問問的的請請你請請你中序" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test08_chineseSupport/的請國的序國中的序你問國序程國程中國的的支你程你的問你問國國" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test08_chineseSupport/請程國問程持請支中的問中持支問支程支請持支支請的支序序請的請" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/8CSVQDX3zuFw9b76qInYVCjNydyyfx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/HO16uYaoAi6LHtgtqQWoR4Z2gjzOEi/0PlEiDIQdhzMwrgfNurxhT9MAJBeDH" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/HO16uYaoAi6LHtgtqQWoR4Z2gjzOEi/RC8RfGP52NwQJFxnobOYfjfX7DDXVV/LwloeKz752vqq9rYLBPJXW4hzjQqh8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Em3PACLtxzkt9d1fU4iuqB80XGaUJw/5hbDQR5oHESwJwzJDBUlk9CuselAuh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Em3PACLtxzkt9d1fU4iuqB80XGaUJw/FXP9w7Jnsb0zuBnSXiSZNI6ogOnfm2/69WBHOpea8QwPGCck23o5JqEIOU8pD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Em3PACLtxzkt9d1fU4iuqB80XGaUJw/FXP9w7Jnsb0zuBnSXiSZNI6ogOnfm2/augEWGeRRORtvTKGSdPyCqEd76CpnL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Em3PACLtxzkt9d1fU4iuqB80XGaUJw/FXP9w7Jnsb0zuBnSXiSZNI6ogOnfm2/flJrd3qbRbBkJVCbOn1EkU9IFC6Q9m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Em3PACLtxzkt9d1fU4iuqB80XGaUJw/FXP9w7Jnsb0zuBnSXiSZNI6ogOnfm2/oU0MjTzRG8Nj5kLCFfkKdYIR9zavTK/C8XaKhPlJyoFBREx8LjAUYBblihncI" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Em3PACLtxzkt9d1fU4iuqB80XGaUJw/FXP9w7Jnsb0zuBnSXiSZNI6ogOnfm2/oU0MjTzRG8Nj5kLCFfkKdYIR9zavTK/UlOB3yiFZdSuCqKdia2dkViBGJybC2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Em3PACLtxzkt9d1fU4iuqB80XGaUJw/FXP9w7Jnsb0zuBnSXiSZNI6ogOnfm2/oU0MjTzRG8Nj5kLCFfkKdYIR9zavTK/tyrd3aOFUWksvjUcFt8UdNmKLYWsJm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/UgzSPRT6ZxedhzCmgCVrZw7TMfjPQy/4OFDzZF1bcnfZvxkP1HVPEAawLrihv/8VDksne3tQyGe9sM4HhrrRf8EDTsNe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/UgzSPRT6ZxedhzCmgCVrZw7TMfjPQy/4OFDzZF1bcnfZvxkP1HVPEAawLrihv/H3jn9RTPKhFCkTMZ6WTGmPMdiqVGqD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/UgzSPRT6ZxedhzCmgCVrZw7TMfjPQy/MvATlZIhEc5gKJTOOrl5nmi13tnfgP" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/7VPFHOe7amPEcMSsm9m6nFbDGyUCY8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/FH3UJgyfw5Xr3pHA7NshUACcLZJpiY" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/UNNQ1RV0Llh97x0bCIo9XKh3hHIiYE/R7kjrnYjjcH2zGVNb2718Z6lQ1AcQp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/UNNQ1RV0Llh97x0bCIo9XKh3hHIiYE/SDE6jSO7Jevsfgc5z7lpWCcZCSnYgT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/UNNQ1RV0Llh97x0bCIo9XKh3hHIiYE/eNbGYKZ6pCfD0Tc9xwBVAT1wFhqv1Z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/urQqPpJBlTTMZH5gB7w0u1ljLx77pj/0XMq7l3I5rS0Yg7sRpJP17RS7oz4hA/nxsdmNpnJWmfevvx6zBqVH3fmerowN" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/urQqPpJBlTTMZH5gB7w0u1ljLx77pj/Ft8z3tkp4q1BxxH20ZNP2YTM1NlC2D/TbmfKaMxvKyRThRUnxVvoBaQM1nQTs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/urQqPpJBlTTMZH5gB7w0u1ljLx77pj/Ft8z3tkp4q1BxxH20ZNP2YTM1NlC2D/cHvZMdWL84GD6vSnnlP7FddEzD5FsR" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/urQqPpJBlTTMZH5gB7w0u1ljLx77pj/Ft8z3tkp4q1BxxH20ZNP2YTM1NlC2D/vnoKiKe5A6j3qDF6jNLRoxOPF8ELr8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/urQqPpJBlTTMZH5gB7w0u1ljLx77pj/GWBdMKx77Bh3RlQzBX0eiu70nzDb7n" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/urQqPpJBlTTMZH5gB7w0u1ljLx77pj/bx5YrM3URaPBY7iA5DGkGnawupXk2s/AXpBvIDNjOGGLiOzsPJh5rzspnREB3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/urQqPpJBlTTMZH5gB7w0u1ljLx77pj/bx5YrM3URaPBY7iA5DGkGnawupXk2s/RWtooh77T2TWmYQehs5p9WVhbFgEGN" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/urQqPpJBlTTMZH5gB7w0u1ljLx77pj/bx5YrM3URaPBY7iA5DGkGnawupXk2s/cMrIbdWdEx8j9xYM62eEB2TJdCwM1c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/urQqPpJBlTTMZH5gB7w0u1ljLx77pj/lNOGuTYvM5BmhsIvjnFdI86jUvCSaZ" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/VTLTjIVw4LEsZydld09iGQNi7yGoQr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test09_recursion/zTAp7mzvbkx7sXulVDjEgm0yMtOPYG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test11_invalidOutput" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test12_singleArgument" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/8CSVQDX3zuFw9b76qInYVCjNydyyfx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/HO16uYaoAi6LHtgtqQWoR4Z2gjzOEi/0PlEiDIQdhzMwrgfNurxhT9MAJBeDH" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/HO16uYaoAi6LHtgtqQWoR4Z2gjzOEi/RC8RfGP52NwQJFxnobOYfjfX7DDXVV/LwloeKz752vqq9rYLBPJXW4hzjQqh8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Em3PACLtxzkt9d1fU4iuqB80XGaUJw/5hbDQR5oHESwJwzJDBUlk9CuselAuh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Em3PACLtxzkt9d1fU4iuqB80XGaUJw/FXP9w7Jnsb0zuBnSXiSZNI6ogOnfm2/69WBHOpea8QwPGCck23o5JqEIOU8pD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Em3PACLtxzkt9d1fU4iuqB80XGaUJw/FXP9w7Jnsb0zuBnSXiSZNI6ogOnfm2/augEWGeRRORtvTKGSdPyCqEd76CpnL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Em3PACLtxzkt9d1fU4iuqB80XGaUJw/FXP9w7Jnsb0zuBnSXiSZNI6ogOnfm2/flJrd3qbRbBkJVCbOn1EkU9IFC6Q9m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Em3PACLtxzkt9d1fU4iuqB80XGaUJw/FXP9w7Jnsb0zuBnSXiSZNI6ogOnfm2/oU0MjTzRG8Nj5kLCFfkKdYIR9zavTK/C8XaKhPlJyoFBREx8LjAUYBblihncI" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Em3PACLtxzkt9d1fU4iuqB80XGaUJw/FXP9w7Jnsb0zuBnSXiSZNI6ogOnfm2/oU0MjTzRG8Nj5kLCFfkKdYIR9zavTK/UlOB3yiFZdSuCqKdia2dkViBGJybC2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Em3PACLtxzkt9d1fU4iuqB80XGaUJw/FXP9w7Jnsb0zuBnSXiSZNI6ogOnfm2/oU0MjTzRG8Nj5kLCFfkKdYIR9zavTK/tyrd3aOFUWksvjUcFt8UdNmKLYWsJm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/UgzSPRT6ZxedhzCmgCVrZw7TMfjPQy/4OFDzZF1bcnfZvxkP1HVPEAawLrihv/8VDksne3tQyGe9sM4HhrrRf8EDTsNe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/UgzSPRT6ZxedhzCmgCVrZw7TMfjPQy/4OFDzZF1bcnfZvxkP1HVPEAawLrihv/H3jn9RTPKhFCkTMZ6WTGmPMdiqVGqD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/UgzSPRT6ZxedhzCmgCVrZw7TMfjPQy/MvATlZIhEc5gKJTOOrl5nmi13tnfgP" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/7VPFHOe7amPEcMSsm9m6nFbDGyUCY8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/FH3UJgyfw5Xr3pHA7NshUACcLZJpiY" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/UNNQ1RV0Llh97x0bCIo9XKh3hHIiYE/R7kjrnYjjcH2zGVNb2718Z6lQ1AcQp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/UNNQ1RV0Llh97x0bCIo9XKh3hHIiYE/SDE6jSO7Jevsfgc5z7lpWCcZCSnYgT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/UNNQ1RV0Llh97x0bCIo9XKh3hHIiYE/eNbGYKZ6pCfD0Tc9xwBVAT1wFhqv1Z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/urQqPpJBlTTMZH5gB7w0u1ljLx77pj/0XMq7l3I5rS0Yg7sRpJP17RS7oz4hA/nxsdmNpnJWmfevvx6zBqVH3fmerowN" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/urQqPpJBlTTMZH5gB7w0u1ljLx77pj/Ft8z3tkp4q1BxxH20ZNP2YTM1NlC2D/TbmfKaMxvKyRThRUnxVvoBaQM1nQTs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/urQqPpJBlTTMZH5gB7w0u1ljLx77pj/Ft8z3tkp4q1BxxH20ZNP2YTM1NlC2D/cHvZMdWL84GD6vSnnlP7FddEzD5FsR" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/urQqPpJBlTTMZH5gB7w0u1ljLx77pj/Ft8z3tkp4q1BxxH20ZNP2YTM1NlC2D/vnoKiKe5A6j3qDF6jNLRoxOPF8ELr8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/urQqPpJBlTTMZH5gB7w0u1ljLx77pj/GWBdMKx77Bh3RlQzBX0eiu70nzDb7n" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/urQqPpJBlTTMZH5gB7w0u1ljLx77pj/bx5YrM3URaPBY7iA5DGkGnawupXk2s/AXpBvIDNjOGGLiOzsPJh5rzspnREB3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/urQqPpJBlTTMZH5gB7w0u1ljLx77pj/bx5YrM3URaPBY7iA5DGkGnawupXk2s/RWtooh77T2TWmYQehs5p9WVhbFgEGN" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/urQqPpJBlTTMZH5gB7w0u1ljLx77pj/bx5YrM3URaPBY7iA5DGkGnawupXk2s/cMrIbdWdEx8j9xYM62eEB2TJdCwM1c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/TlqSrkrwuXbg0adbuB1ZHzTwYW1veQ/Vz7d9mgJsE71LWOttAcStBezgRhNz8/urQqPpJBlTTMZH5gB7w0u1ljLx77pj/lNOGuTYvM5BmhsIvjnFdI86jUvCSaZ" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/VTLTjIVw4LEsZydld09iGQNi7yGoQr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_singleRecursion/zTAp7mzvbkx7sXulVDjEgm0yMtOPYG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_veryLargeFile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_veryLargeFile.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_veryLargeFile/你支持請中中問國問持中持的序中程支國中問你的中持問問持你國序" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_veryLargeFile/問的中你問的國程持請程支支請持你支支你持的持持國問你你你你序" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_veryLargeFile/國持請中序程序持的問持支請支持支的國程支的支持中的序持支的你" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_veryLargeFile/序中序的支國你序請支支持請中問國問序持程中程的國的國國持請的" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_veryLargeFile/持你支支序支問支中國的問國持支你程的序的你國程問程中請國持的" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_veryLargeFile/支中持中國的你國程你支請中問序問請你序的你序請程你序國你程支" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_veryLargeFile/的序持中程支你問你的中請中問序國程問的中問程持國中序持問的程" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_veryLargeFile/的支國你程的你你持序的程持的國請持你中程中國持的你的請序支支" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_veryLargeFile/請中的的的支序的中的國程請程持程支請持問的你你支中程國支持中" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test13_veryLargeFile/請支問持國中支問請程支你持程支問你程的持持的支你序請你國你請" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/A7nUbZaKBL866DkHUarBnxHEWsFY8V" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/YZpq5lF8vc0ZBC64QBqLBErlNQBqqS/8heYNkDYPL8LcNnkih1dWn6tBtBDGF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/YZpq5lF8vc0ZBC64QBqLBErlNQBqqS/JuL84aUmz5jeatnbhOaUX3aXO7GRKw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/YZpq5lF8vc0ZBC64QBqLBErlNQBqqS/bfyT0lxPDklZD61ycKyS4ySUfNAd10/7GnqXEYck24IiOfmMY2HaGQ1w3zRAm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/YZpq5lF8vc0ZBC64QBqLBErlNQBqqS/bfyT0lxPDklZD61ycKyS4ySUfNAd10/AExV0ygFxAnQVfxYR2DCrwhURn8iOp/3RBuvkpyZSrxAmcvVUC43JbAlNszSA/TWFl1i7MJMK4MSQZf1JOvpEk1rCEAe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/YZpq5lF8vc0ZBC64QBqLBErlNQBqqS/bfyT0lxPDklZD61ycKyS4ySUfNAd10/AExV0ygFxAnQVfxYR2DCrwhURn8iOp/DjE4Wj6YL1w1vnUSfHwRqil5oU7Up5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/YZpq5lF8vc0ZBC64QBqLBErlNQBqqS/bfyT0lxPDklZD61ycKyS4ySUfNAd10/MY3yyxaTkK3bZtuL2o4Bbnu7DctYqy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/YZpq5lF8vc0ZBC64QBqLBErlNQBqqS/bfyT0lxPDklZD61ycKyS4ySUfNAd10/TxnY99tqvAhbjuZ18crACi2VENBtN6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/lx9j515diTeL8a0YEMhXayt0B83YQh/AOR3biYS0ZdMRa6bmCehxkAWuSOaED/IedVEXMpyLzkPwa39O0wKHOIfMAUAc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/lx9j515diTeL8a0YEMhXayt0B83YQh/AOR3biYS0ZdMRa6bmCehxkAWuSOaED/jOrk7OziuHRsYtpR8iHgiSxYvqR4UF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/lx9j515diTeL8a0YEMhXayt0B83YQh/m8t21VTWVwCr7cPjuREFC8STq3P4Ux" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/lx9j515diTeL8a0YEMhXayt0B83YQh/q7ZAACoI4TvC5hqVeZlzTRjfe829rQ/cSrz5coxzzO38NBTbkTOZXHzw6Ad1F" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/vbI1bRqBadfcU6SQH0Wee02IQutRc8/3ivMqcKoJku9WjgvyZXbJ4kYXfkppR/gj5MHGqNvEa5JnR17p1XvnI0R4tUb2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/vbI1bRqBadfcU6SQH0Wee02IQutRc8/3ivMqcKoJku9WjgvyZXbJ4kYXfkppR/ricQNbNRgtl7TchLcG8SjZ6wVylD7u/3JQnjqfWizQ7Mqh8NFmXD5FeenkiLO" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/vbI1bRqBadfcU6SQH0Wee02IQutRc8/3ivMqcKoJku9WjgvyZXbJ4kYXfkppR/zsxZ3lDs5lyLEco1ICqwHWGlwdpXTa/5OAiHskTFhRRqRmkhsUmlxf9RGb84A/Tqi4pg2s7XlRM6mRb4nqA25xvFznZ1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/vbI1bRqBadfcU6SQH0Wee02IQutRc8/3ivMqcKoJku9WjgvyZXbJ4kYXfkppR/zsxZ3lDs5lyLEco1ICqwHWGlwdpXTa/MSSWs9nRfniMAgVvdiuyCVgLTCRkox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/vbI1bRqBadfcU6SQH0Wee02IQutRc8/3ivMqcKoJku9WjgvyZXbJ4kYXfkppR/zsxZ3lDs5lyLEco1ICqwHWGlwdpXTa/TWjQMPCfif5ctwAblj43FQjH7EhSVy/1iObln8OUy6eYOIhOf0YT3k9g6tuw1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/vbI1bRqBadfcU6SQH0Wee02IQutRc8/3ivMqcKoJku9WjgvyZXbJ4kYXfkppR/zsxZ3lDs5lyLEco1ICqwHWGlwdpXTa/TWjQMPCfif5ctwAblj43FQjH7EhSVy/pJ9zbwZSCXFGhWQMV3OBQEUUY8pL5O" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/vbI1bRqBadfcU6SQH0Wee02IQutRc8/3ivMqcKoJku9WjgvyZXbJ4kYXfkppR/zsxZ3lDs5lyLEco1ICqwHWGlwdpXTa/ZKymuiaSHErhTgNAFytZ7Bei4P3z7U/L4VaC50BexXmznhDM6pp371cS2e3jl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/vbI1bRqBadfcU6SQH0Wee02IQutRc8/3ivMqcKoJku9WjgvyZXbJ4kYXfkppR/zsxZ3lDs5lyLEco1ICqwHWGlwdpXTa/ZKymuiaSHErhTgNAFytZ7Bei4P3z7U/gqusVfJGlOWwR8hQP806sKXwyASWXn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/vbI1bRqBadfcU6SQH0Wee02IQutRc8/3ivMqcKoJku9WjgvyZXbJ4kYXfkppR/zsxZ3lDs5lyLEco1ICqwHWGlwdpXTa/ZKymuiaSHErhTgNAFytZ7Bei4P3z7U/lxRG5ZK6Ae6PgLchTUsXzG1D5n06Wl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/vbI1bRqBadfcU6SQH0Wee02IQutRc8/DGlfd8SPyGDfRKwHhiWCtEiHTaheUa/2TO0bzDeXqBx58Fgz5JwN23X45fuSA/HSoqQFHr4NaHVHcrm1vPxno9UueEwg/1gyoiZvYoVMmVXdFpsglNN5U2PychX" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/vbI1bRqBadfcU6SQH0Wee02IQutRc8/DGlfd8SPyGDfRKwHhiWCtEiHTaheUa/2TO0bzDeXqBx58Fgz5JwN23X45fuSA/HSoqQFHr4NaHVHcrm1vPxno9UueEwg/CloHYj5zrcMXbwCxj6bt0EVRHxLNcS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/vbI1bRqBadfcU6SQH0Wee02IQutRc8/DGlfd8SPyGDfRKwHhiWCtEiHTaheUa/2TO0bzDeXqBx58Fgz5JwN23X45fuSA/HSoqQFHr4NaHVHcrm1vPxno9UueEwg/FUZpcS3kc1etP0q36WB0kbsthZpA6x" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/vbI1bRqBadfcU6SQH0Wee02IQutRc8/DGlfd8SPyGDfRKwHhiWCtEiHTaheUa/2TO0bzDeXqBx58Fgz5JwN23X45fuSA/J7d5NwCJOY30jLiwzdC8tTLmZ7y2Rj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/vbI1bRqBadfcU6SQH0Wee02IQutRc8/DGlfd8SPyGDfRKwHhiWCtEiHTaheUa/2TO0bzDeXqBx58Fgz5JwN23X45fuSA/ZoXAPYFczvHYy7k8MsPWFDVpJlL2MG/dCwgqTdKaT3NwsLridUqc0HqJmT0ed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/vbI1bRqBadfcU6SQH0Wee02IQutRc8/DGlfd8SPyGDfRKwHhiWCtEiHTaheUa/2TO0bzDeXqBx58Fgz5JwN23X45fuSA/ZoXAPYFczvHYy7k8MsPWFDVpJlL2MG/oYyHBQm1ajeFrCRawocQpRgmCA4ak3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/vbI1bRqBadfcU6SQH0Wee02IQutRc8/DGlfd8SPyGDfRKwHhiWCtEiHTaheUa/acvOEog8U4ybWVLBgcKMKHs7d002Su" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/vbI1bRqBadfcU6SQH0Wee02IQutRc8/DGlfd8SPyGDfRKwHhiWCtEiHTaheUa/eJKQqZIc9V7h9RBzRRhHQ3dCq0y5RK/cTXIISSfmIw7UJ8kLkbgJTJJfCTyvq" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/vbI1bRqBadfcU6SQH0Wee02IQutRc8/DGlfd8SPyGDfRKwHhiWCtEiHTaheUa/eJKQqZIc9V7h9RBzRRhHQ3dCq0y5RK/k61DsI5lGV7oKj6Z9JRmegZPxunHh9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/vbI1bRqBadfcU6SQH0Wee02IQutRc8/DGlfd8SPyGDfRKwHhiWCtEiHTaheUa/eJKQqZIc9V7h9RBzRRhHQ3dCq0y5RK/ooRjGCOIUUgJeRASDqVs39YVBj0Rny" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/vbI1bRqBadfcU6SQH0Wee02IQutRc8/DGlfd8SPyGDfRKwHhiWCtEiHTaheUa/rRNh25RZLpTo7dxlOEV1LDn3Sd5Re4/gHZ9p2YTJLRfKWeSDLGwJ0e7WBhKwF/guidCqULxvkIdpkMHDtKdwNXAKTNnV" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/vbI1bRqBadfcU6SQH0Wee02IQutRc8/DGlfd8SPyGDfRKwHhiWCtEiHTaheUa/rRNh25RZLpTo7dxlOEV1LDn3Sd5Re4/jlTjU5DQ99e0nVgUzkVQaoxJhnPLYT/ELOoZZGc2OGoci7u8RHCkev2rr65k4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/vbI1bRqBadfcU6SQH0Wee02IQutRc8/DGlfd8SPyGDfRKwHhiWCtEiHTaheUa/rRNh25RZLpTo7dxlOEV1LDn3Sd5Re4/jlTjU5DQ99e0nVgUzkVQaoxJhnPLYT/h1nlknOEZKmtkeAyengDrZkLLVhwe7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/vbI1bRqBadfcU6SQH0Wee02IQutRc8/FHbrXZEU1SnAKcB5iL7u60V5cYegZM" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/vbI1bRqBadfcU6SQH0Wee02IQutRc8/S3d7Qnz0O0SsdoTzc7ir4FbXqZMZju" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/vbI1bRqBadfcU6SQH0Wee02IQutRc8/a3CDmVFrUgHOYEKavxUd6lQc7QSddA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/SVGtuMxZZ6JR2mk1GHoxferhNCHeoE/w9HJhRctzo2Omta71iK7jLKJCUflQT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/YHydQJKIgfKWZgwNGpuM5yKXnINiDg/QWSffhn1VKQcE0IMAUjSUzJeS6oQEy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/__Test__Walk__/test14_doubleRecursion/YHydQJKIgfKWZgwNGpuM5yKXnINiDg/kW882ThA92ymgN2WN548eA4Toq5GPU/EHR8x1jOJT8vH2zZuhrnAJAi6rHFBh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/a.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/comp.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/info/kgeorgiy/java/advanced/base/BaseTester.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/info/kgeorgiy/java/advanced/base/CG.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/info/kgeorgiy/java/advanced/base/CertificateGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/info/kgeorgiy/java/advanced/base/CertifiedBaseTester.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/info/kgeorgiy/java/advanced/walk/RecursiveWalk.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/info/kgeorgiy/java/advanced/walk/RecursiveWalkTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/info/kgeorgiy/java/advanced/walk/Tester.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/info/kgeorgiy/java/advanced/walk/WalkTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/ru/ifmo/ctddev/belonogov/walk/RecursiveWalk$FastScanner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/ru/ifmo/ctddev/belonogov/walk/RecursiveWalk.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW1/ru/ifmo/ctddev/belonogov/walk/RecursiveWalk.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/.idea/description.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/.idea/project-template.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/HW2.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/comp.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/out/production/HW2/ru/ifmo/ctddev/belonogov/arrayset/ArraySet$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/out/production/HW2/ru/ifmo/ctddev/belonogov/arrayset/ArraySet$MyComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/out/production/HW2/ru/ifmo/ctddev/belonogov/arrayset/ArraySet$MyIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/out/production/HW2/ru/ifmo/ctddev/belonogov/arrayset/ArraySet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/out/production/HW2/ru/ifmo/ctddev/belonogov/arrayset/Box.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/out/production/HW2/ru/ifmo/ctddev/belonogov/arrayset/Main$MyComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/out/production/HW2/ru/ifmo/ctddev/belonogov/arrayset/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/src/ru/ifmo/ctddev/belonogov/arrayset/ArraySet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/src/ru/ifmo/ctddev/belonogov/arrayset/Box.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/src/ru/ifmo/ctddev/belonogov/arrayset/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/.idea/description.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/.idea/libraries/ArraySetTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/.idea/libraries/ArraySetTest1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/.idea/project-template.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/HW3.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/OutputStreamImpl.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/a/home/vanya/Documents/prog/Java/HW3/src/ru/ifmo/ctddev/belonogov/implementor/AImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/a/home/vanya/Documents/prog/Java/HW3/test02_standardMethodlessInterfaces/javax/management/loading/PrivateClassLoaderImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/a/home/vanya/Documents/prog/Java/HW3/test02_standardMethodlessInterfaces/javax/xml/bind/ElementImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/a/home/vanya/Documents/prog/Java/HW3/test03_standardInterfaces/javax/accessibility/AccessibleActionImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/a/home/vanya/Documents/prog/Java/HW3/test03_standardInterfaces/javax/accessibility/AccessibleImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/a/home/vanya/Documents/prog/Java/HW3/test03_standardInterfaces/javax/annotation/GeneratedImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/a/home/vanya/Documents/prog/Java/HW3/test04_extendedInterfaces/javax/management/DescriptorImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/a/home/vanya/Documents/prog/Java/HW3/test04_extendedInterfaces/javax/sql/rowset/CachedRowSetImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/a/home/vanya/Documents/prog/Java/HW3/test04_extendedInterfaces/org/omg/DynamicAny/DynAnyImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/a/home/vanya/Documents/prog/Java/HW3/test06_java8Interfaces/info/kgeorgiy/java/advanced/implementor/examples/InterfaceWithDefaultMethodImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/a/home/vanya/Documents/prog/Java/HW3/test06_java8Interfaces/info/kgeorgiy/java/advanced/implementor/examples/InterfaceWithStaticMethodImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/a/home/vanya/Documents/prog/Java/HW3/test07_defaultConstructorClasses/javax/imageio/plugins/bmp/BMPImageWriteParamImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/a/home/vanya/Documents/prog/Java/HW3/test07_defaultConstructorClasses/javax/management/relation/RelationNotFoundExceptionImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/a/home/vanya/Documents/prog/Java/HW3/test08_noDefaultConstructorClasses/javax/imageio/IIOExceptionImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/a/home/vanya/Documents/prog/Java/HW3/test08_noDefaultConstructorClasses/javax/management/ImmutableDescriptorImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/a/home/vanya/Documents/prog/Java/HW3/test08_noDefaultConstructorClasses/javax/naming/ldap/LdapReferralExceptionImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/a/home/vanya/Documents/prog/Java/HW3/test09_ambiguousConstructorClasses/javax/imageio/IIOImageImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/a/home/vanya/Documents/prog/Java/HW3/test13_constructorThrows/javax/imageio/stream/FileCacheImageInputStreamImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/a/home/vanya/Documents/prog/Java/HW3/test14_nonPublicAbstractMethod/javax/management/remote/rmi/RMIIIOPServerImplImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/a/home/vanya/Documents/prog/Java/HW3/test14_nonPublicAbstractMethod/javax/management/remote/rmi/RMIServerImplImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/a/home/vanya/Documents/prog/Java/HW3/test15_inheritedNonPublicAbstractMethod/org/omg/CORBA_2_3/ORBImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/comp.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/info.kgeorgiy.java.advanced.implementor.examples.InterfaceWithStaticMethoda.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/info/kgeorgiy/java/advanced/implementor/examples/InterfaceWithStaticMethodImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/info/kgeorgiy/java/advanced/implementor/examples/InterfaceWithStaticMethodImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/java-advanced-2015" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/java/io/OutputStreamImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/java/io/OutputStreamImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/java/lang/IntegerImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/java/lang/StringImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/java/util/ListImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/java/util/QueueImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/java/util/TreeMapImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/javax.accessibility.Accessiblea.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/javax.management.Descriptora.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/javax.xml.bind.Elementa.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/javax/accessibility/AccessibleImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/javax/accessibility/AccessibleImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/javax/management/DescriptorImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/javax/management/DescriptorImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/javax/xml/bind/ElementImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/javax/xml/bind/ElementImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/mJar.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/out/production/HW3/Manifest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/out/production/HW3/java/io/OutputStreamImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/out/production/HW3/java/io/OutputStreamImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/out/production/HW3/ru/ifmo/ctddev/belonogov/implementor/A.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/out/production/HW3/ru/ifmo/ctddev/belonogov/implementor/AImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/out/production/HW3/ru/ifmo/ctddev/belonogov/implementor/B.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/out/production/HW3/ru/ifmo/ctddev/belonogov/implementor/C.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/out/production/HW3/ru/ifmo/ctddev/belonogov/implementor/D.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/out/production/HW3/ru/ifmo/ctddev/belonogov/implementor/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/ru.ifmo.ctddev.belonogov.implementor.Aa.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/ru/ifmo/ctddev/belonogov/implementor/AImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/ru/ifmo/ctddev/belonogov/implementor/AImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/src/ru/ifmo/ctddev/belonogov/implementor/A.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/src/ru/ifmo/ctddev/belonogov/implementor/A.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/src/ru/ifmo/ctddev/belonogov/implementor/AImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/src/ru/ifmo/ctddev/belonogov/implementor/B.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/src/ru/ifmo/ctddev/belonogov/implementor/B.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/src/ru/ifmo/ctddev/belonogov/implementor/C.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/src/ru/ifmo/ctddev/belonogov/implementor/C.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/src/ru/ifmo/ctddev/belonogov/implementor/D.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/src/ru/ifmo/ctddev/belonogov/implementor/D.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/src/ru/ifmo/ctddev/belonogov/implementor/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW3/src/ru/ifmo/ctddev/belonogov/implementor/MySuperClass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/.idea/description.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/.idea/libraries/artifacts.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/.idea/libraries/java.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/.idea/project-template.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/HW6.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/comp.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/java-advanced-2015" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/out/production/HW6/ru/ifmo/ctddev/belonogov/DeadLock$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/out/production/HW6/ru/ifmo/ctddev/belonogov/DeadLock$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/out/production/HW6/ru/ifmo/ctddev/belonogov/DeadLock$Friend.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/out/production/HW6/ru/ifmo/ctddev/belonogov/DeadLock.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/out/production/HW6/ru/ifmo/ctddev/belonogov/Drop.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/out/production/HW6/ru/ifmo/ctddev/belonogov/IterativeParallelism$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/out/production/HW6/ru/ifmo/ctddev/belonogov/IterativeParallelism$Worker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/out/production/HW6/ru/ifmo/ctddev/belonogov/IterativeParallelism.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/out/production/HW6/ru/ifmo/ctddev/belonogov/SimpleTread.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/out/production/HW6/ru/ifmo/ctddev/belonogov/TestWait.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/out/production/HW6/ru/ifmo/ctddev/belonogov/mymanifest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/src/ru/ifmo/ctddev/belonogov/DeadLock.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/src/ru/ifmo/ctddev/belonogov/Drop.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/src/ru/ifmo/ctddev/belonogov/IterativeParallelism.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/src/ru/ifmo/ctddev/belonogov/SimpleTread.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW6/src/ru/ifmo/ctddev/belonogov/TestWait.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW7/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW7/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW7/.idea/description.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW7/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW7/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW7/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW7/.idea/project-template.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW7/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW7/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW7/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW7/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW7/HW7.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW7/java-advanced-2015" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW7/out/production/HW7/ru/ifmo/ctddev/belonogov/Main1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW7/out/production/HW7/ru/ifmo/ctddev/belonogov/ParallelMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW7/out/production/HW7/ru/ifmo/ctddev/belonogov/ParallelMapperImpl$CountTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW7/out/production/HW7/ru/ifmo/ctddev/belonogov/ParallelMapperImpl$Task.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW7/out/production/HW7/ru/ifmo/ctddev/belonogov/ParallelMapperImpl$Worker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW7/out/production/HW7/ru/ifmo/ctddev/belonogov/ParallelMapperImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW7/src/ru/ifmo/ctddev/belonogov/Main1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW7/src/ru/ifmo/ctddev/belonogov/ParallelMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HW7/src/ru/ifmo/ctddev/belonogov/ParallelMapperImpl.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="HW7.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,6 +448,33 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="HW7" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+              <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IterativeParallelism.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/iterativeParallelism/IterativeParallelism.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.11329305" vertical-offset="0" max-vertical-offset="2955">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="-4" />
@@ -50,6 +504,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -58,10 +514,102 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HW7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaHomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HW7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaHomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="belonogov" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HW7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaHomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="belonogov" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HW7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaHomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="belonogov" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iterativeParallelism" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HW7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaHomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="belonogov" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="implementer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -71,8 +619,26 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="recentsLimit" value="5" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ru.ifmo.ctddev.belonogov.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HW7" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -82,9 +648,9 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -94,31 +660,66 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -126,7 +727,7 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -147,9 +748,9 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
@@ -164,21 +765,23 @@
       <listeners />
       <method />
     </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d5872e12-2971-41b1-a894-1deee3a47f3c" name="Default" comment="" />
-      <created>1427186626779</created>
+      <changelist id="bc02ebbb-a043-437a-815f-36eea201c903" name="Default" comment="" />
+      <created>1427285824671</created>
       <option name="number" value="Default" />
-      <updated>1427186626779</updated>
+      <updated>1427285824671</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -191,7 +794,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -224,5 +827,23 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/iterativeParallelism/IterativeParallelism.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11329305" vertical-offset="0" max-vertical-offset="2955">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
