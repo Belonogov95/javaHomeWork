@@ -31,8 +31,8 @@ public class Main1 {
         for (int x: data)
             list.add(x);
         try {
-            List < Integer > result = mapper.run(x -> x + 2, list);
-            List < String > stringR = mapper.run(x -> x.toString() + "!key!", list);
+            List < Integer > result = mapper.map(x -> x + 2, list);
+            List < String > stringR = mapper.map(x -> x.toString() + "!key!", list);
             for (Integer x: result)
                 System.out.println(x);
             for (String s: stringR)

@@ -1,5 +1,7 @@
 package ru.ifmo.ctddev.belonogov.mapper;
 
+import info.kgeorgiy.java.advanced.mapper.ParallelMapper;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Queue;
@@ -109,7 +111,7 @@ public class ParallelMapperImpl implements ParallelMapper {
 
 
     @Override
-    public <T, R> List<R> run(Function<? super T, ? extends R> f, List<? extends T> args) throws InterruptedException {
+    public <T, R> List<R> map(Function<? super T, ? extends R> f, List<? extends T> args) throws InterruptedException {
         System.err.println("start run");
         CountTask countTask = new CountTask(args.size());
         List<Task> list = new ArrayList<Task>();

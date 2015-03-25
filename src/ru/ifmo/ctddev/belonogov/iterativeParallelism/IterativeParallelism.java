@@ -1,6 +1,7 @@
-package ru.ifmo.ctddev.belonogov.mapper;
+package ru.ifmo.ctddev.belonogov.iterativeParallelism;
 
 import info.kgeorgiy.java.advanced.concurrent.ListIP;
+import info.kgeorgiy.java.advanced.mapper.ParallelMapper;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -97,7 +98,7 @@ public class IterativeParallelism implements ListIP {
        else {
             System.err.println(list.getClass());
             try {
-                threadsResult = mapper.run(action, list);
+                threadsResult = mapper.map(action, list);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
