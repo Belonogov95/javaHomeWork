@@ -1,6 +1,5 @@
 package ru.ifmo.ctddev.belonogov.implementor;
 
-import info.kgeorgiy.java.advanced.implementor.Impler;
 import info.kgeorgiy.java.advanced.implementor.ImplerException;
 import info.kgeorgiy.java.advanced.implementor.JarImpler;
 import javafx.util.Pair;
@@ -13,14 +12,9 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.lang.reflect.Type;
 import java.nio.channels.FileChannel;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
+import java.util.*;
 import java.util.jar.Attributes;
+import java.util.jar.JarEntry;
 import java.util.jar.JarOutputStream;
 import java.util.jar.Manifest;
 
@@ -30,14 +24,14 @@ public class Main implements JarImpler {
     int cur;
 
     public static void main(String[] args) throws ImplerException {
-        new Main().run(C.class, new File("."));
+        new Main().implementJar(OutputStream.class, new File(""));
         if (true) return;
-        System.out.println(String.class);
+        //System.out.println(String.class);
         if (args.length != 1 || args[0] == null)
             throw new ImplerException();
         try {
             System.out.println(args[0]);
-            new Main().run(Class.forName(args[0]), new File("."));
+            new Main().implement(Class.forName(args[0]), new File(""));
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
@@ -54,7 +48,7 @@ public class Main implements JarImpler {
         try {
             source = new FileInputStream(sourceFile).getChannel();
             destination = new FileOutputStream(destFile).getChannel();
-             destination.transferFrom(source, 0, source.size());
+            destination.transferFrom(source, 0, source.size());
         } finally {
             if (source != null) {
                 source.close();
@@ -144,7 +138,7 @@ public class Main implements JarImpler {
 
     public Pair<String, Pair<String, Type>> makeStringFromMethod(Method method) {
         //method.getGenericParameterTypes()
-                //method.getGenericReturnType();
+        //method.getGenericReturnType();
         String access = "";
         String result = "";
 
@@ -165,8 +159,7 @@ public class Main implements JarImpler {
             if (method.getReturnType().isPrimitive()) {
                 if (method.getReturnType().equals(boolean.class)) {
                     result += " false";
-                }
-                else {
+                } else {
                     result += " 0";
                 }
             } else {
@@ -197,7 +190,7 @@ public class Main implements JarImpler {
         file2.mkdirs();
         sourceFile = new File(path.toString() + "Impl.java");
         try (PrintWriter out = new PrintWriter(sourceFile, "UTF-8")) {
-            System.out.println(sourceFile);
+            //System.out.println(sourceFile);
             String myClassName = token.getSimpleName() + "Impl";
             out.println("package " + token.getPackage().getName() + ";");
             out.println();
@@ -205,8 +198,7 @@ public class Main implements JarImpler {
 
             if (token.isInterface()) {
                 out.print("implements ");
-            }
-            else {
+            } else {
                 out.print("extends ");
             }
             out.print(token.getName());
@@ -234,7 +226,7 @@ public class Main implements JarImpler {
                         out.print(" throws ");
                     }
                     int cnt = 0;
-                    for (Class exception: exceptions) {
+                    for (Class exception : exceptions) {
                         if (cnt > 0) {
                             out.print(", ");
                         }
@@ -261,17 +253,16 @@ public class Main implements JarImpler {
             visited = new HashSet<>();
             ArrayList<Method> implementedMethods = recImplemented(token);
 
-            HashMap<String, Pair<String, Type >> forImplementation = new HashMap<>();
+            HashMap<String, Pair<String, Type>> forImplementation = new HashMap<>();
 
             for (Method method : implementedMethods) {
                 Pair<String, Pair<String, Type>> result = makeStringFromMethod(method);
                 if (!forImplementation.containsKey(result.getKey())) {
                     forImplementation.put(result.getKey(), result.getValue());
-                }
-                else {
+                } else {
                     Type oldClass = result.getValue().getValue();
                     Type newClass = forImplementation.get(result.getKey()).getValue();
-                    if (((Class)newClass).isAssignableFrom((Class)oldClass)) {
+                    if (((Class) newClass).isAssignableFrom((Class) oldClass)) {
 
                         forImplementation.remove(result.getKey());
                         forImplementation.put(result.getKey(), result.getValue());
@@ -314,6 +305,7 @@ public class Main implements JarImpler {
 
     @Override
     public void implement(Class<?> aClass, File file) throws ImplerException {
+        //System.err.println("final: " + Modifier.isFinal(aClass.getModifiers()));
         if (aClass == null || aClass.isPrimitive() || Modifier.isFinal(aClass.getModifiers()) || file == null) {
             throw new ImplerException(String.format("usage: Class - not null, not primitive, not final; %n" +
                     "File - not null"));
@@ -323,7 +315,7 @@ public class Main implements JarImpler {
 
     @Override
     public void implementJar(Class<?> aClass, File file) throws ImplerException {
-        implement(aClass, new File("."));
+        implement(aClass, file);
         JavaCompiler compiler = ToolProvider.getSystemJavaCompiler();
         String path = sourceFile.getAbsolutePath();
         if (compiler.run(null, null, null, path) != 0) {
@@ -332,14 +324,34 @@ public class Main implements JarImpler {
         Manifest manifest = new Manifest();
         manifest.getMainAttributes().put(Attributes.Name.MANIFEST_VERSION, "1.0");
         String fileS = path;
-        File pathToClass= new File(fileS.substring(0, fileS.length() - 4) + "class");
+        File pathToClass = new File(fileS.substring(0, fileS.length() - 4) + "class");
+        //System.err.println("tut");
+
 //        File pathToJar = new File(".");
-        try (InputStream input = new BufferedInputStream(new FileInputStream(pathToClass))) {
+        String jarPath = file.getAbsolutePath() + File.separator + aClass.getSimpleName() + "Impl.jar";
+        //System.err.println("jarPath: " + jarPath);
+        try (InputStream input = new BufferedInputStream(new FileInputStream(pathToClass));
+             JarOutputStream target = new JarOutputStream(new FileOutputStream(jarPath), manifest)) {
+            //sdfsdf
 
+            String name = aClass.getPackage().getName().replace('.', File.separatorChar) + File.separatorChar
+                    + aClass.getSimpleName() + "Impl.class";
+            //System.out.println("name: " + name);
+            assert(!name.isEmpty());
 
+            if (!name.endsWith("/"))
+                name += "/";
+            //System.out.println("name: " + name);
 
+            JarEntry entry = new JarEntry(name);
+            entry.setTime(pathToClass.lastModified());
+            target.putNextEntry(entry);
+            int count;
+            byte[] buffer = new byte[10000];
+            while ((count = input.read(buffer)) >= 0)
+                target.write(buffer, 0, count);
 
-
+            target.close();
         } catch (IOException e) {
             e.printStackTrace();
         }

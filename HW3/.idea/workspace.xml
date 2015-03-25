@@ -31,8 +31,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/implementor/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4888889" vertical-offset="225" max-vertical-offset="5340">
-              <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.48076922" vertical-offset="4680" max-vertical-offset="5520">
+              <caret line="327" column="13" selection-start-line="327" selection-start-column="13" selection-end-line="327" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,12 +40,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ru/ifmo/ctddev/belonogov/implementor/CImpl.java">
+      <file leaf-file-name="IntegerImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/lang/IntegerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#105#106#0" expanded="false" />
+                <element signature="e#130#131#0" expanded="false" />
+                <element signature="e#274#275#0" expanded="false" />
+                <element signature="e#298#299#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,8 +58,8 @@
       <file leaf-file-name="A.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/implementor/A.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="240">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -70,22 +75,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ru/ifmo/ctddev/belonogov/implementor/AImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="StringImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/lang/StringImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="525">
               <caret line="63" column="38" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
-              <folding />
+              <folding>
+                <element signature="e#121#122#0" expanded="false" />
+                <element signature="e#154#155#0" expanded="false" />
+                <element signature="e#219#220#0" expanded="false" />
+                <element signature="e#248#249#0" expanded="false" />
+                <element signature="e#459#460#0" expanded="false" />
+                <element signature="e#496#497#0" expanded="false" />
+                <element signature="e#691#692#0" expanded="false" />
+                <element signature="e#720#721#0" expanded="false" />
+                <element signature="e#773#774#0" expanded="false" />
+                <element signature="e#798#799#0" expanded="false" />
+                <element signature="e#850#851#0" expanded="false" />
+                <element signature="e#875#876#0" expanded="false" />
+                <element signature="e#911#912#0" expanded="false" />
+                <element signature="e#936#937#0" expanded="false" />
+                <element signature="e#987#988#0" expanded="false" />
+                <element signature="e#1020#1021#0" expanded="false" />
+                <element signature="e#1047#1048#0" expanded="false" />
+                <element signature="e#1070#1071#0" expanded="false" />
+                <element signature="e#1106#1107#0" expanded="false" />
+                <element signature="e#1131#1132#0" expanded="false" />
+                <element signature="e#1177#1178#0" expanded="false" />
+                <element signature="e#1202#1203#0" expanded="false" />
+                <element signature="e#1254#1255#0" expanded="false" />
+                <element signature="e#1287#1288#0" expanded="false" />
+                <element signature="e#1331#1332#0" expanded="false" />
+                <element signature="e#1360#1361#0" expanded="false" />
+                <element signature="e#1420#1421#0" expanded="false" />
+                <element signature="e#1457#1458#0" expanded="false" />
+                <element signature="e#1510#1511#0" expanded="false" />
+                <element signature="e#1537#1538#0" expanded="false" />
+                <element signature="e#1570#1571#0" expanded="false" />
+                <element signature="e#1594#1595#0" expanded="false" />
+                <element signature="e#1650#1651#0" expanded="false" />
+                <element signature="e#1677#1678#0" expanded="false" />
+                <element signature="e#1725#1726#0" expanded="false" />
+                <element signature="e#1752#1753#0" expanded="false" />
+                <element signature="e#1803#1804#0" expanded="false" />
+                <element signature="e#1830#1831#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,7 +139,34 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="32850">
               <caret line="43" column="8" selection-start-line="42" selection-start-column="4" selection-end-line="43" selection-end-column="9" />
-              <folding />
+              <folding>
+                <element signature="e#0#95358#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#8262#8263#0" expanded="false" />
+                <element signature="e#8297#8298#0" expanded="false" />
+                <element signature="e#21135#21136#0" expanded="false" />
+                <element signature="e#21162#21163#0" expanded="false" />
+                <element signature="e#21752#21753#0" expanded="false" />
+                <element signature="e#21794#21795#0" expanded="false" />
+                <element signature="e#23018#23019#0" expanded="false" />
+                <element signature="e#23057#23058#0" expanded="false" />
+                <element signature="e#64751#64752#0" expanded="false" />
+                <element signature="e#64801#64802#0" expanded="false" />
+                <element signature="e#68391#68392#0" expanded="false" />
+                <element signature="e#68441#68442#0" expanded="false" />
+                <element signature="e#72099#72100#0" expanded="false" />
+                <element signature="e#72153#72154#0" expanded="false" />
+                <element signature="e#75713#75714#0" expanded="false" />
+                <element signature="e#75750#75751#0" expanded="false" />
+                <element signature="e#80745#80746#0" expanded="false" />
+                <element signature="e#80782#80783#0" expanded="false" />
+                <element signature="e#89537#89538#0" expanded="false" />
+                <element signature="e#89586#89587#0" expanded="false" />
+                <element signature="e#91257#91258#0" expanded="false" />
+                <element signature="e#91297#91298#0" expanded="false" />
+                <element signature="e#91558#91559#0" expanded="false" />
+                <element signature="e#91590#91591#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -214,6 +275,64 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HW3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HW3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ifmo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ctddev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="belonogov" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HW3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HW3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HW3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HW3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -239,7 +358,7 @@
     <property name="options.lastSelected" value="reference.projectsettings.compiler.annotationProcessors" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/java-advanced-2015/lib/quickcheck-0.6.jar!/" />
     <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
@@ -251,7 +370,7 @@
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ru.ifmo.ctddev.belonogov.implementor.Main" />
-      <option name="VM_PARAMETERS" value="" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <option name="PROGRAM_PARAMETERS" value="&quot;java.lang.String&quot;" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -431,12 +550,14 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27635327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.238653" sideWeight="0.4985755" order="0" side_tool="false" content_ui="combo" />
@@ -444,14 +565,12 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5014245" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3988604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3988604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="FLOATING" visible="false" weight="0.329429" sideWeight="0.5" order="13" side_tool="false" content_ui="combo" x="153" y="227" width="1166" height="569" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4002849" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -499,6 +618,7 @@
     </option>
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$/java-advanced-2015" />
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
@@ -510,20 +630,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/implementor/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="285">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/implementor/B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="330">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/implementor/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4425">
@@ -837,7 +943,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="32850">
           <caret line="43" column="8" selection-start-line="42" selection-start-column="4" selection-end-line="43" selection-end-column="9" />
-          <folding />
+          <folding>
+            <element signature="e#0#95358#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#8262#8263#0" expanded="false" />
+            <element signature="e#8297#8298#0" expanded="false" />
+            <element signature="e#21135#21136#0" expanded="false" />
+            <element signature="e#21162#21163#0" expanded="false" />
+            <element signature="e#21752#21753#0" expanded="false" />
+            <element signature="e#21794#21795#0" expanded="false" />
+            <element signature="e#23018#23019#0" expanded="false" />
+            <element signature="e#23057#23058#0" expanded="false" />
+            <element signature="e#64751#64752#0" expanded="false" />
+            <element signature="e#64801#64802#0" expanded="false" />
+            <element signature="e#68391#68392#0" expanded="false" />
+            <element signature="e#68441#68442#0" expanded="false" />
+            <element signature="e#72099#72100#0" expanded="false" />
+            <element signature="e#72153#72154#0" expanded="false" />
+            <element signature="e#75713#75714#0" expanded="false" />
+            <element signature="e#75750#75751#0" expanded="false" />
+            <element signature="e#80745#80746#0" expanded="false" />
+            <element signature="e#80782#80783#0" expanded="false" />
+            <element signature="e#89537#89538#0" expanded="false" />
+            <element signature="e#89586#89587#0" expanded="false" />
+            <element signature="e#91257#91258#0" expanded="false" />
+            <element signature="e#91297#91298#0" expanded="false" />
+            <element signature="e#91558#91559#0" expanded="false" />
+            <element signature="e#91590#91591#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -853,23 +986,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <caret line="63" column="38" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ru/ifmo/ctddev/belonogov/implementor/AImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/implementor/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#121#122#0" expanded="false" />
+            <element signature="e#154#155#0" expanded="false" />
+            <element signature="e#219#220#0" expanded="false" />
+            <element signature="e#248#249#0" expanded="false" />
+            <element signature="e#459#460#0" expanded="false" />
+            <element signature="e#496#497#0" expanded="false" />
+            <element signature="e#691#692#0" expanded="false" />
+            <element signature="e#720#721#0" expanded="false" />
+            <element signature="e#773#774#0" expanded="false" />
+            <element signature="e#798#799#0" expanded="false" />
+            <element signature="e#850#851#0" expanded="false" />
+            <element signature="e#875#876#0" expanded="false" />
+            <element signature="e#911#912#0" expanded="false" />
+            <element signature="e#936#937#0" expanded="false" />
+            <element signature="e#987#988#0" expanded="false" />
+            <element signature="e#1020#1021#0" expanded="false" />
+            <element signature="e#1047#1048#0" expanded="false" />
+            <element signature="e#1070#1071#0" expanded="false" />
+            <element signature="e#1106#1107#0" expanded="false" />
+            <element signature="e#1131#1132#0" expanded="false" />
+            <element signature="e#1177#1178#0" expanded="false" />
+            <element signature="e#1202#1203#0" expanded="false" />
+            <element signature="e#1254#1255#0" expanded="false" />
+            <element signature="e#1287#1288#0" expanded="false" />
+            <element signature="e#1331#1332#0" expanded="false" />
+            <element signature="e#1360#1361#0" expanded="false" />
+            <element signature="e#1420#1421#0" expanded="false" />
+            <element signature="e#1457#1458#0" expanded="false" />
+            <element signature="e#1510#1511#0" expanded="false" />
+            <element signature="e#1537#1538#0" expanded="false" />
+            <element signature="e#1570#1571#0" expanded="false" />
+            <element signature="e#1594#1595#0" expanded="false" />
+            <element signature="e#1650#1651#0" expanded="false" />
+            <element signature="e#1677#1678#0" expanded="false" />
+            <element signature="e#1725#1726#0" expanded="false" />
+            <element signature="e#1752#1753#0" expanded="false" />
+            <element signature="e#1803#1804#0" expanded="false" />
+            <element signature="e#1830#1831#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -881,18 +1037,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ru/ifmo/ctddev/belonogov/implementor/CImpl.java">
+    <entry file="file://$PROJECT_DIR$/java/lang/IntegerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="394">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#105#106#0" expanded="false" />
+            <element signature="e#130#131#0" expanded="false" />
+            <element signature="e#274#275#0" expanded="false" />
+            <element signature="e#298#299#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="22920">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/implementor/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/implementor/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4888889" vertical-offset="225" max-vertical-offset="5340">
-          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.48076922" vertical-offset="4680" max-vertical-offset="5520">
+          <caret line="327" column="13" selection-start-line="327" selection-start-column="13" selection-end-line="327" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -963,7 +1140,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>ArraySetTest1</last-edited>
+          <last-edited>ArraySetTest</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
