@@ -11,56 +11,74 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.lang.reflect.Type;
-import java.nio.channels.FileChannel;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
 import java.util.jar.Attributes;
 import java.util.jar.JarEntry;
 import java.util.jar.JarOutputStream;
 import java.util.jar.Manifest;
 
+/**
+ * The class represent implementation of interface {@link info.kgeorgiy.java.advanced.implementor.JarImpler} interface.
+ * It can generate implementation (the <code>.java</code> file) for classes or interfaces except generic classes.
+ * New class name consist of the name class that is implemented plus "Impl" suffix.
+ * This class can generate <code> .jar </code> file with generated class.
+ * <p>
+ * This class can throw {@link info.kgeorgiy.java.advanced.implementor.ImplerException}  if it's impossible
+ * to generate implementation.
+ *
+ * @author Ivan Belonogov
+ */
+
+
 public class Main implements JarImpler {
-    HashSet<Class> visited;
-    File sourceFile;
-    int cur;
-
-    public static void main(String[] args) throws ImplerException {
-        //new Main().implementJar(OutputStream.class, new File(""));
-        //if (true) return;
-        //System.out.println(String.class);
-        if (args.length != 1 || args[0] == null)
-            throw new ImplerException();
-        try {
-            System.out.println(args[0]);
-            new Main().implement(Class.forName(args[0]), new File(""));
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
-    }
-
-//    public static void copyFile(File sourceFile, File destFile) throws IOException {
-//        if (!destFile.exists()) {
-//            destFile.createNewFile();
-//        }
-//
-//        FileChannel source = null;
-//        FileChannel destination = null;
-//
-//        try {
-//            source = new FileInputStream(sourceFile).getChannel();
-//            destination = new FileOutputStream(destFile).getChannel();
-//            destination.transferFrom(source, 0, source.size());
-//        } finally {
-//            if (source != null) {
-//                source.close();
-//            }
-//            if (destination != null) {
-//                destination.close();
-//            }
-//        }
-//    }
+    /**
+     * This HashSet contain information about visited classes. When
+     * {@link #recImplemented} method search methods which need to be implemented.
+     */
+    private HashSet<Class> visited;
 
     /**
-     * Gen
+     * After invocation {@link #implement} this {@link java.io.File} contains link to file with implementaion.
+     */
+    private File sourceFile;
+
+    /**
+     * Contain the number of arguments in current method or constructor
+     */
+
+    private int countArgs;
+
+
+    /**
+     * Invokes {@link #implement(Class, java.io.File)} with parameters
+     * passed through command line.
+     *
+     * @param args arguments from command line
+     * @throws ImplerException
+     */
+
+    public static void main(String[] args) throws ImplerException {
+        if (args.length == 1 && args[0] != null)
+            try {
+                new Main().implement(Class.forName(args[0]), new File(""));
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+            }
+        else  if (args.length == 3 && args[0].equals("-jar") && args[1] != null && args[2] != null){
+            try {
+                new Main().implementJar(Class.forName(args[1]), new File(args[2]));
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+            }
+        }
+        else
+            System.err.println("Usage: -jar <class name>  <file.jar>  or <class name>");
+    }
+
+    /**
      * @param position
      * @return
      */
@@ -112,31 +130,31 @@ public class Main implements JarImpler {
 
     public String generateParameterString(Type[] args, boolean isVarArgs) {
         String result = "(";
-        cur = 0;
+        countArgs = 0;
         for (int i = 0; i < args.length - 1; i++) {
             Type arg = args[i];
-            if (cur > 0) {
+            if (countArgs > 0) {
                 result += ", ";
             }
-            result += arg.getTypeName() + " a" + cur;
-            cur++;
+            result += arg.getTypeName() + " a" + countArgs;
+            countArgs++;
         }
         if (args.length > 0) {
             if (isVarArgs) {
                 Type arg = args[args.length - 1];
-                if (cur > 0) {
+                if (countArgs > 0) {
                     result += ", ";
                 }
                 String tmpS = arg.getTypeName();
-                result += tmpS.substring(0, tmpS.length() - 2) + " ... a" + cur;
+                result += tmpS.substring(0, tmpS.length() - 2) + " ... a" + countArgs;
             } else {
                 Type arg = args[args.length - 1];
-                if (cur > 0) {
+                if (countArgs > 0) {
                     result += ", ";
                 }
-                result += arg.getTypeName() + " a" + cur;
+                result += arg.getTypeName() + " a" + countArgs;
             }
-            cur++;
+            countArgs++;
         }
         result += ")";
         return result;
@@ -241,7 +259,7 @@ public class Main implements JarImpler {
                     }
                     out.println(" {");
                     out.print("        " + "super(");
-                    for (int i = 0; i < cur; i++) {
+                    for (int i = 0; i < countArgs; i++) {
                         if (i > 0) {
                             out.print(", ");
                         }
@@ -343,7 +361,7 @@ public class Main implements JarImpler {
             String name = aClass.getPackage().getName().replace('.', File.separatorChar) + File.separatorChar
                     + aClass.getSimpleName() + "Impl.class";
             //System.out.println("name: " + name);
-            assert(!name.isEmpty());
+            assert (!name.isEmpty());
 
             if (!name.endsWith("/"))
                 name += "/";

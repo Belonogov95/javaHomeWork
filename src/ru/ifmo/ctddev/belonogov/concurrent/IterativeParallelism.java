@@ -1,10 +1,12 @@
-package ru.ifmo.ctddev.belonogov.iterativeParallelism;
+package ru.ifmo.ctddev.belonogov.concurrent;
 
 import info.kgeorgiy.java.advanced.concurrent.ListIP;
 import info.kgeorgiy.java.advanced.mapper.ParallelMapper;
+import ru.ifmo.ctddev.belonogov.mapper.ParallelMapperImpl;
 
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.function.Function;
 import java.util.function.Predicate;
@@ -24,12 +26,12 @@ public class IterativeParallelism implements ListIP {
 //                    return o1.compareTo(o2);
 //                }
 //            });
-            List < Integer > list = map(2, b, x -> x + 3);
-
-            System.out.println(concat(2,list));
+            List < Integer > list = map(2, b, x -> x + 9);
+            System.out.println(list);
+            //System.out.println(concat(2,list));
 
 //            System.out.println("x: " + x);
-            System.out.println("res: " + concat(2, b));
+            //System.out.println("res: " + concat(2, b));
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -37,7 +39,7 @@ public class IterativeParallelism implements ListIP {
     }
 
     public static void main(String[] args) {
-        new IterativeParallelism().run();
+        new IterativeParallelism(new ParallelMapperImpl(2, new LinkedList<>())).run();
     }
 
     public IterativeParallelism() {  }

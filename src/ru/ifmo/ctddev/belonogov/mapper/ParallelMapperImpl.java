@@ -15,7 +15,7 @@ public class ParallelMapperImpl implements ParallelMapper {
     final Queue<Task> queue;
 
 
-    private class Task<T, R> {
+    public class Task<T, R> {
         private Function<T, R> f;
         private T value;
         private CountTask countTask;
@@ -112,7 +112,7 @@ public class ParallelMapperImpl implements ParallelMapper {
 
     @Override
     public <T, R> List<R> map(Function<? super T, ? extends R> f, List<? extends T> args) throws InterruptedException {
-        System.err.println("start run");
+        //System.err.println("start map");
         CountTask countTask = new CountTask(args.size());
         List<Task> list = new ArrayList<Task>();
         synchronized (queue) {
