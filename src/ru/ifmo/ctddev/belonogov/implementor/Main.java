@@ -11,10 +11,7 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.lang.reflect.Type;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
+import java.util.*;
 import java.util.jar.Attributes;
 import java.util.jar.JarEntry;
 import java.util.jar.JarOutputStream;
@@ -57,10 +54,12 @@ public class Main implements JarImpler {
      * passed through command line.
      *
      * @param args arguments from command line
-     * @throws ImplerException
+     * @throws ImplerException when class can't be implemented (final, primitive, all constructors are private)
      */
 
     public static void main(String[] args) throws ImplerException {
+        //new Main().implement(OutputStream.class, new File(""));
+        //if (true) return;
         if (args.length == 1 && args[0] != null)
             try {
                 new Main().implement(Class.forName(args[0]), new File(""));
@@ -79,8 +78,9 @@ public class Main implements JarImpler {
     }
 
     /**
-     * @param position
-     * @return
+     * Traverses all interfaces that implements or classes that extends Class position and search all declared methods
+     * @param position      class from which to start search
+     * @return              ArrayList < Method > which contains information about methods which was declared
      */
 
     private ArrayList<Method> recDeclared(Class position) {
@@ -98,6 +98,14 @@ public class Main implements JarImpler {
         result.addAll(recDeclared(position.getSuperclass()));
         return result;
     }
+
+    
+    /**
+     * Traverses all interfaces that implements or classes that extends Class position and search all implemented methods
+     * @param position      class from which to start search
+     * @return              ArrayList < Method > which contains information about methods which was implemented
+     */
+
 
     private ArrayList<Method> recImplemented(Class position) {
         ArrayList<Method> result = new ArrayList<>();
@@ -127,6 +135,13 @@ public class Main implements JarImpler {
         }
         return result;
     }
+
+    /**
+     * Generate string for method or constructor parameters
+     * @param args      Array with arguments types
+     * @param isVarArgs is this method VarArgs
+     * @return          String that describe parameters for method or constructor.
+     */
 
     public String generateParameterString(Type[] args, boolean isVarArgs) {
         String result = "(";
@@ -159,6 +174,13 @@ public class Main implements JarImpler {
         result += ")";
         return result;
     }
+
+    /**
+     *
+     * @param method
+     * @return
+     */
+
 
     private Pair<String, Pair<String, Type>> makeStringFromMethod(Method method) {
         //method.getGenericParameterTypes()
@@ -329,7 +351,7 @@ public class Main implements JarImpler {
 
     @Override
     public void implement(Class<?> aClass, File file) throws ImplerException {
-        //System.err.println("final: " + Modifier.isFinal(aClass.getModifiers()));
+        System.err.println("final: " + Modifier.isFinal(aClass.getModifiers()));
         if (aClass == null || aClass.isPrimitive() || Modifier.isFinal(aClass.getModifiers()) || file == null) {
             throw new ImplerException(String.format("usage: Class - not null, not primitive, not final; %n" +
                     "File - not null"));
@@ -339,6 +361,7 @@ public class Main implements JarImpler {
 
     @Override
     public void implementJar(Class<?> aClass, File file) throws ImplerException {
+        System.out.println("jar case");
         implement(aClass, file);
         JavaCompiler compiler = ToolProvider.getSystemJavaCompiler();
         String path = sourceFile.getAbsolutePath();
@@ -353,7 +376,7 @@ public class Main implements JarImpler {
 
 //        File pathToJar = new File(".");
         String jarPath = file.getAbsolutePath() + File.separator + aClass.getSimpleName() + "Impl.jar";
-        //System.err.println("jarPath: " + jarPath);
+        System.err.println("jarPath: " + jarPath);
         try (InputStream input = new BufferedInputStream(new FileInputStream(pathToClass));
              JarOutputStream target = new JarOutputStream(new FileOutputStream(jarPath), manifest)) {
             //sdfsdf
