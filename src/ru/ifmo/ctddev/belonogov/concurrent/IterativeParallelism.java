@@ -29,7 +29,9 @@ public class IterativeParallelism implements ListIP {
 //                }
 //            });
             List<Integer> list = map(2, b, x -> x + 9);
-            System.out.println(list);
+
+
+            //System.out.println(list);
             //System.out.println(concat(2,list));
 
 //            System.out.println("x: " + x);
@@ -40,13 +42,19 @@ public class IterativeParallelism implements ListIP {
 
     }
 
-    public static void main(String[] args) {
-        //new IterativeParallelism(new ParallelMapperImpl(2, new LinkedList<>())).run();
-        new IterativeParallelism(new ParallelMapperImpl(2)).run();
-    }
+//    public static void main(String[] args) {
+//        //new IterativeParallelism(new ParallelMapperImpl(2, new LinkedList<>())).run();
+//        new IterativeParallelism(new ParallelMapperImpl(2)).run();
+//    }
 
     public IterativeParallelism() {
     }
+
+    /**
+     *
+     *
+     * @param mapper
+     */
 
     public IterativeParallelism(ParallelMapper mapper) {
         this.mapper = mapper;
@@ -105,7 +113,10 @@ public class IterativeParallelism implements ListIP {
         } else {
             ArrayList<List<? extends T>> data = new ArrayList<>();
             for (int i = 0; i < threads; i++) {
-                data.add(list.subList(i * elementsForThread, Math.min((i + 1) * elementsForThread, len)));
+                int left = Math.min(i * elementsForThread, len);
+                int right = Math.min((i + 1) * elementsForThread, len);
+                //System.err.println("left right sz " + left + " " + right + " " + list.size());
+                data.add(list.subList(left, right));
             }
             Function<List<? extends T>, R> mapperFunc = l -> {
                 ArrayList<R> result = new ArrayList<>();
@@ -114,6 +125,7 @@ public class IterativeParallelism implements ListIP {
                 return combiner.apply(result);
             };
             try {
+                //System.err.println("data sz: " + data.size());
                 threadsResult = mapper.map(mapperFunc, data);
             } catch (InterruptedException e) {
                 e.printStackTrace();
@@ -122,7 +134,7 @@ public class IterativeParallelism implements ListIP {
         return combiner.apply(threadsResult);
     }
 
-     /**
+    /**
      * Returns concatenated representations (in the sense of {@link Object#toString()} method)
      * of all the elements of the given {@code list}.
      * <p>
@@ -130,7 +142,7 @@ public class IterativeParallelism implements ListIP {
      * objects. Each of them gets its own part of work to perform the whole work in parallel.
      *
      * @param threads number of {@code Threads} in which work should be done.
-     * @param list {@code List} of elements
+     * @param list    {@code List} of elements
      * @return concatenated {@code String} representation of elements
      * @throws InterruptedException
      */
@@ -246,14 +258,9 @@ public class IterativeParallelism implements ListIP {
         Function<List<T>, T> combiner = listT -> {
             T result = null;
             for (T aListT : listT) {
-                if (aListT == null)
-                    continue;
-                if (result == null)
+                if (aListT == null)continue;
+                if (result == null || comparator.compare(result, aListT) == -1)
                     result = aListT;
-                int r = comparator.compare(result, aListT);
-                if (r == -1) {
-                    result = aListT;
-                }
             }
             return result;
         };
@@ -291,18 +298,18 @@ public class IterativeParallelism implements ListIP {
         return parallel(threads, list, action, combiner);
     }
 
-      /**
+    /**
      * Returns whether all elements of the given {@code list} match
      * the provided {@code predicate}.
      * <p>
      * For intrinsic purposes it uses {@code threads} of {@link java.lang.Thread}
      * objects. Each of them gets its own part of work to perform the whole work in parallel.
      *
-     * @param threads number of {@code Threads} in which work should be done.
-     * @param list {@code List} of elements to be checked
+     * @param threads   number of {@code Threads} in which work should be done.
+     * @param list      {@code List} of elements to be checked
      * @param predicate a {@code non-interfering} and {@code stateless}
-     * predicate to be check to each element
-     * @param <T> {@code parent} {@code generic} type of elements
+     *                  predicate to be check to each element
+     * @param <T>       {@code parent} {@code generic} type of elements
      * @return {@code true} if all elements match the given {@code predicate},
      * {@code false} otherwise.
      * @throws InterruptedException if any worker thread was interrupted during its work
@@ -315,18 +322,18 @@ public class IterativeParallelism implements ListIP {
         return parallel(threads, list, action, combiner);
     }
 
-     /**
+    /**
      * Returns whether any element of the given {@code list} matches
      * the provided {@code predicate}.
      * <p>
      * For intrinsic purposes it uses {@code threads} of {@link java.lang.Thread}
      * objects. Each of them gets its own part of work to perform the whole work in parallel.
      *
-     * @param threads number of {@code Threads} in which work should be done.
-     * @param list {@code List} of elements for which {@code predicate} should be checked
+     * @param threads   number of {@code Threads} in which work should be done.
+     * @param list      {@code List} of elements for which {@code predicate} should be checked
      * @param predicate a {@code non-interfering} and {@code stateless}
-     * predicate to be checked
-     * @param <T> {@code parent} {@code generic} type of elements
+     *                  predicate to be checked
+     * @param <T>       {@code parent} {@code generic} type of elements
      * @return {@code true} if any element of the {@code list} matches the given {@code predicate},
      * {@code false} otherwise.
      * @throws InterruptedException if any worker thread was interrupted during its work

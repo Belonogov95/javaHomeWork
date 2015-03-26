@@ -1,5 +1,7 @@
 package ru.ifmo.ctddev.belonogov.mapper;
 
+import ru.ifmo.ctddev.belonogov.concurrent.IterativeParallelism;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -17,20 +19,19 @@ public class Main1 {
 //    }
 
     public void run() {
-        //ParallelMapper pm = new ParallelMapperImpl();
-
-
-//        System.out.println((new Main1()).<Integer>f("8.0"));
-//        if (true) return;
-        System.err.println("sdfasdfa");
-        //assert(false);
-//        ParallelMapperImpl mapper = new ParallelMapperImpl(2, new LinkedList<>());
-        ParallelMapperImpl mapper = new ParallelMapperImpl(2);
-        //if (true) return;
+        ParallelMapperImpl mapper = new ParallelMapperImpl(3);
+        IterativeParallelism ip = new IterativeParallelism(mapper);
+        //for (int i = 0; i < 1000;)
         int[] data = {2, 4, 3, 6, 4, 3};
         List< Integer > list = new ArrayList<Integer>();
         for (int x: data)
             list.add(x);
+        try {
+            ip.concat(3, list);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         try {
             List < Integer > result = mapper.map(x -> x + 2, list);
             List < String > stringR = mapper.map(x -> x.toString() + "!key!", list);

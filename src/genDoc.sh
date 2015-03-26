@@ -3,11 +3,11 @@
 
 
 mcp="-classpath ../java-advanced-2015/artifacts/*:.:../java-advanced-2015/lib/*"
-link="-linkoffline http://docs.oracle.com/javase/8/docs/api/ http://docs.oracle.com/javase/8/docs/api/"
+linkkkk="-linkoffline http://docs.oracle.com/javase/8/docs/api/ http://docs.oracle.com/javase/8/docs/api/"
 sb="-subpackages info.kgeorgiy.java.advanced.implementor"
 package="ru.ifmo.ctddev.belonogov.implementor"
 
-javadoc -d doc $package $mcp $link $sb
+javadoc $linkkkk -d doc $package $mcp $sb
 #-classpath ~/Documents/prog/Java/java-advanced-2015/artifacts/:.
 #javadoc -d doc 
 #-classpath ~/Documents/prog/Java/java-advanced-2015/artifacts/

@@ -50,6 +50,11 @@ public class Main implements JarImpler {
 
 
     /**
+     * Empty constructor
+     */
+    public Main() {  }
+
+    /**
      * Invokes {@link #implement(Class, java.io.File)} with parameters
      * passed through command line.
      *
