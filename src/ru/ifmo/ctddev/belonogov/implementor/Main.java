@@ -20,7 +20,7 @@ import java.util.jar.Manifest;
 /**
  * The class represent implementation of interface {@link info.kgeorgiy.java.advanced.implementor.JarImpler} interface.
  * It can generate implementation (the <code>.java</code> file) for classes or interfaces except generic classes.
- * New class name consist of the name class that is implemented plus "Impl" suffix.
+ * New class args consist of the args class that is implemented plus "Impl" suffix.
  * This class can generate <code> .jar </code> file with generated class.
  * <p>
  * This class can throw {@link info.kgeorgiy.java.advanced.implementor.ImplerException}  if it's impossible
@@ -32,7 +32,7 @@ import java.util.jar.Manifest;
 
 public class Main implements JarImpler {
     /**
-     * This HashSet contain information about visited classes. When
+     * This {@link java.util.HashSet} contain information about visited classes. When
      * {@link #recImplemented} method search methods which need to be implemented.
      */
     private HashSet<Class> visited;
@@ -53,13 +53,13 @@ public class Main implements JarImpler {
      * Invokes {@link #implement(Class, java.io.File)} with parameters
      * passed through command line.
      *
-     * @param args arguments from command line
-     * @throws ImplerException when class can't be implemented (final, primitive, all constructors are private)
+     * @param args              arguments from command line
+     * @throws ImplerException  when class can't be implemented (final, primitive, all constructors are private)
      */
 
     public static void main(String[] args) throws ImplerException {
-        //new Main().implement(OutputStream.class, new File(""));
-        //if (true) return;
+        new Main().implement(A.class, new File(""));
+        if (true) return;
         if (args.length == 1 && args[0] != null)
             try {
                 new Main().implement(Class.forName(args[0]), new File(""));
@@ -74,14 +74,18 @@ public class Main implements JarImpler {
             }
         }
         else
-            System.err.println("Usage: -jar <class name>  <file.jar>  or <class name>");
+            System.err.println("Usage: -jar <class args>  <file.jar>  or <class args>");
     }
 
     /**
-     * Traverses all interfaces that implements or classes that extends Class position and search all declared methods
+     * Traverses all interfaces that implements or classes that extends {@link java.lang.Class}
+     * position and search all declared methods
      * @param position      class from which to start search
      * @return              ArrayList < Method > which contains information about methods which was declared
      */
+
+    //javadoc -private -d R ru.ifmo.ctddev.belonogov.implementor
+
 
     private ArrayList<Method> recDeclared(Class position) {
         ArrayList<Method> result = new ArrayList<>();
@@ -99,11 +103,12 @@ public class Main implements JarImpler {
         return result;
     }
 
-    
+
     /**
-     * Traverses all interfaces that implements or classes that extends Class position and search all implemented methods
+     * Traverses all interfaces that implements or classes that extends {@link java.lang.Class} position and search all implemented methods
      * @param position      class from which to start search
-     * @return              ArrayList < Method > which contains information about methods which was implemented
+     * @return              {@link java.util.ArrayList < {@link java.lang.reflect.Method } ></>
+     * which contains information about methods which was implemented
      */
 
 
@@ -137,10 +142,10 @@ public class Main implements JarImpler {
     }
 
     /**
-     * Generate string for method or constructor parameters
+     * Generate {@link java.lang.String} for method or constructor parameters
      * @param args      Array with arguments types
      * @param isVarArgs is this method VarArgs
-     * @return          String that describe parameters for method or constructor.
+     * @return          {@link java.lang.String} that describe parameters for method or constructor.
      */
 
     public String generateParameterString(Type[] args, boolean isVarArgs) {
@@ -176,48 +181,87 @@ public class Main implements JarImpler {
     }
 
     /**
-     *
-     * @param method
-     * @return
+     * Contains information about method
      */
 
 
-    private Pair<String, Pair<String, Type>> makeStringFromMethod(Method method) {
+    private class MethodInfo {
+        String args;
+        String accessType;
+        Type returnType;
+
+        public MethodInfo(String args, String accessType, Type returnType) {
+            assert(args != null && accessType != null && returnType != null);
+            this.args = args;
+            this.accessType = accessType;
+            this.returnType = returnType;
+        }
+
+        public String getArgs() {
+            return args;
+        }
+
+        public String getAccessType() {
+            return accessType;
+        }
+
+        public Type getReturnType() {
+            return returnType;
+        }
+    }
+
+    /**
+     * Create MethodInfo from method
+     *
+     * @param method        method for generation MethodInfo
+     * @return {@link ru.ifmo.ctddev.belonogov.implementor.Main.MethodInfo}
+     */
+
+    private MethodInfo makeStringFromMethod(Method method) {
         //method.getGenericParameterTypes()
         //method.getGenericReturnType();
-        String access = "";
-        String result = "";
+        String accessType = "";
+        String args = "";
 
         if (Modifier.isProtected(method.getModifiers())) {
-            access = "protected ";
+            accessType = "protected ";
         }
         if (Modifier.isPublic(method.getModifiers())) {
-            access = "public ";
+            accessType = "public ";
         }
 
-        result += method.getName();
-        result += generateParameterString(method.getGenericParameterTypes(), method.isVarArgs());
-        result += " {";
+        args += method.getName();
+        args += generateParameterString(method.getGenericParameterTypes(), method.isVarArgs());
+        args += " {";
         if (method.getReturnType().equals(void.class)) {
-            result += String.format("}");
+            args += String.format("}");
         } else {
-            result += String.format("%n        return");
+            args += String.format("%n        return");
             if (method.getReturnType().isPrimitive()) {
                 if (method.getReturnType().equals(boolean.class)) {
-                    result += " false";
+                    args += " false";
                 } else {
-                    result += " 0";
+                    args += " 0";
                 }
             } else {
-                result += " null";
+                args += " null";
             }
-            result += String.format(";%n    }");
+            args += String.format(";%n    }");
         }
-        //method.getGenericReturnType();
-
-        return new Pair<>(result, new Pair<>(access, method.getGenericReturnType()));
+        return new MethodInfo(args, accessType, method.getGenericReturnType());
 
     }
+
+
+
+    /**
+     * Create implementation for given class.
+     *
+     * @param token             {@link java.lang.Class} for implementation
+     * @param root              Directory where create implementation
+     * @throws ImplerException  when class can't be implemented (final, primitive, all constructors are private)
+     *
+     */
 
 
     private void run(Class<?> token, File root) throws ImplerException {
@@ -302,24 +346,24 @@ public class Main implements JarImpler {
             HashMap<String, Pair<String, Type>> forImplementation = new HashMap<>();
 
             for (Method method : implementedMethods) {
-                Pair<String, Pair<String, Type>> result = makeStringFromMethod(method);
-                if (!forImplementation.containsKey(result.getKey())) {
-                    forImplementation.put(result.getKey(), result.getValue());
+                MethodInfo result = makeStringFromMethod(method);
+                if (!forImplementation.containsKey(result.getAccessType())) {
+                    forImplementation.put(result.getArgs(), new Pair<>(result.getAccessType(), result.getReturnType()));
                 } else {
-                    Type oldClass = result.getValue().getValue();
-                    Type newClass = forImplementation.get(result.getKey()).getValue();
+                    Type oldClass = result.getReturnType();
+                    Type newClass = forImplementation.get(result.getArgs()).getValue();
                     if (((Class) newClass).isAssignableFrom((Class) oldClass)) {
 
-                        forImplementation.remove(result.getKey());
-                        forImplementation.put(result.getKey(), result.getValue());
+                        forImplementation.remove(result.getArgs());
+                        forImplementation.put(result.getArgs(), new Pair<>(result.getAccessType(), result.getReturnType()));
                     }
                 }
             }
             for (Method method : declaredMethods) {
-                Pair<String, Pair<String, Type>> result = makeStringFromMethod(method);
-                if (forImplementation.containsKey(result.getKey()) &&
-                        forImplementation.get(result.getKey()).getValue().equals(result.getValue().getValue())) {
-                    forImplementation.remove(result.getKey());
+                MethodInfo result = makeStringFromMethod(method);
+                if (forImplementation.containsKey(result.getArgs()) &&
+                        forImplementation.get(result.getArgs()).getValue().equals(result.getReturnType())) {
+                    forImplementation.remove(result.getArgs());
                 }
             }
 
@@ -340,18 +384,20 @@ public class Main implements JarImpler {
         } catch (FileNotFoundException | UnsupportedEncodingException e) {
             e.printStackTrace();
         }
-//        File destFile = new File("./a" + sourceFile);
-//        new File(destFile.getParent()).mkdirs();
-//        try {
-//            copyFile(sourceFile, destFile);
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
     }
+
+    /**
+     * Create implementation for given class.
+     *
+     * @param aClass            {@link java.lang.Class} for implementation
+     * @param file              Directory where create implementation
+     * @throws ImplerException  when class can't be implemented (final, primitive, all constructors are private)
+     *
+     */
 
     @Override
     public void implement(Class<?> aClass, File file) throws ImplerException {
-        System.err.println("final: " + Modifier.isFinal(aClass.getModifiers()));
+        //System.err.println("final: " + Modifier.isFinal(aClass.getModifiers()));
         if (aClass == null || aClass.isPrimitive() || Modifier.isFinal(aClass.getModifiers()) || file == null) {
             throw new ImplerException(String.format("usage: Class - not null, not primitive, not final; %n" +
                     "File - not null"));
@@ -359,9 +405,19 @@ public class Main implements JarImpler {
         run(aClass, file);
     }
 
+    /**
+     * Create Jar file with implementation for given class.
+     *
+     * @param aClass            {@link java.lang.Class} for implementation
+     * @param file              Directory where will create <code>.jar</code>
+     * @throws ImplerException  when class can't be implemented (final, primitive, all constructors are private)
+     *
+     */
+
+
     @Override
     public void implementJar(Class<?> aClass, File file) throws ImplerException {
-        System.out.println("jar case");
+        //System.out.println("jar case");
         implement(aClass, file);
         JavaCompiler compiler = ToolProvider.getSystemJavaCompiler();
         String path = sourceFile.getAbsolutePath();
@@ -383,12 +439,12 @@ public class Main implements JarImpler {
 
             String name = aClass.getPackage().getName().replace('.', File.separatorChar) + File.separatorChar
                     + aClass.getSimpleName() + "Impl.class";
-            //System.out.println("name: " + name);
+            //System.out.println("args: " + args);
             assert (!name.isEmpty());
 
             if (!name.endsWith("/"))
                 name += "/";
-            //System.out.println("name: " + name);
+            //System.out.println("args: " + args);
 
             JarEntry entry = new JarEntry(name);
             entry.setTime(pathToClass.lastModified());

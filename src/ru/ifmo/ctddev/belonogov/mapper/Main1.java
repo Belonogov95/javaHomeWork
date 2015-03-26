@@ -24,7 +24,8 @@ public class Main1 {
 //        if (true) return;
         System.err.println("sdfasdfa");
         //assert(false);
-        ParallelMapperImpl mapper = new ParallelMapperImpl(2, new LinkedList<>());
+//        ParallelMapperImpl mapper = new ParallelMapperImpl(2, new LinkedList<>());
+        ParallelMapperImpl mapper = new ParallelMapperImpl(2);
         //if (true) return;
         int[] data = {2, 4, 3, 6, 4, 3};
         List< Integer > list = new ArrayList<Integer>();

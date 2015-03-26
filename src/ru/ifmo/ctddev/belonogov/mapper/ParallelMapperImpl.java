@@ -3,6 +3,7 @@ package ru.ifmo.ctddev.belonogov.mapper;
 import info.kgeorgiy.java.advanced.mapper.ParallelMapper;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 import java.util.function.Function;
@@ -12,8 +13,7 @@ import java.util.function.Function;
 
 public class ParallelMapperImpl implements ParallelMapper {
     ArrayList<Thread> threads;
-    final Queue<Task> queue;
-
+    Queue<Task> queue;
 
     public class Task<T, R> {
         private Function<T, R> f;
@@ -83,7 +83,7 @@ public class ParallelMapperImpl implements ParallelMapper {
                                 myTask.countTask.notify();
                         }
                     } catch (InterruptedException e) {
-                        System.err.println("close ");
+                        //System.err.println("close ");
                         return;
                     }
                 }
@@ -92,18 +92,27 @@ public class ParallelMapperImpl implements ParallelMapper {
     }
 
 
-    public ParallelMapperImpl(int countThreads, Queue < Task > queue) {
-        this.queue = queue;
+//    public ParallelMapperImpl(int countThreads, Queue < Task > queue) {
+//        this.queue = queue;
+//        threads = new ArrayList<>();
+//        for (int i = 0; i < countThreads; i++) {
+//            threads.add(new Thread(new Worker(i)));
+//        }
+//        //queue = new LinkedList<Task>();
+//        for (int i = 0; i < countThreads; i++)
+//            threads.get(i).start();
+//    }
+
+
+    public ParallelMapperImpl(int countThreads) {
         threads = new ArrayList<>();
         for (int i = 0; i < countThreads; i++) {
             threads.add(new Thread(new Worker(i)));
         }
-        //queue = new LinkedList<Task>();
+        queue = new LinkedList<Task>();
         for (int i = 0; i < countThreads; i++)
             threads.get(i).start();
     }
-
-
 
     //public static void main(String[] args) {
         //(new ParallelMapperImpl()).run();
