@@ -20,9 +20,9 @@ import java.util.function.Function;
  */
 
 public class ParallelMapperImpl implements ParallelMapper {
-    ArrayList<Thread> threads;
-    final Queue<Task<?, ?>> queue;
-    Boolean closeOccur = false;
+    private ArrayList<Thread> threads;
+    private final Queue<Task<?, ?>> queue;
+    private Boolean closeOccur = false;
 
     private class Task<T, R> implements Runnable {
         private Function<T, R> f;
@@ -89,7 +89,7 @@ public class ParallelMapperImpl implements ParallelMapper {
                     }
                 }
                 if (myTask.getFlagKill()) {
-                    System.err.println("close");
+                    //System.err.println("close");
                     return;
                 }
                 myTask.run();
@@ -106,7 +106,7 @@ public class ParallelMapperImpl implements ParallelMapper {
 
 
     /**
-     * Create an instance of thread pool with specified number of worker {@code threads}.
+     * Create an instance of thread with specified number of worker {@code threads}.
      *
      * @param countThreads number of threads to which work should be divided
      */
@@ -124,9 +124,7 @@ public class ParallelMapperImpl implements ParallelMapper {
 
 
     /**
-     * Apply given {@code function} to given {@code list} of arguments and do that work
-     * in parallel. Number of threads specified at constructor will be number of
-     * potentially workers that pops queued tasks by readiness.
+     * Apply given {@code function} to given {@code list} of arguments and do that work in parallel.
      *
      * @param f    action to be applied to the given {@code list} of arguments
      * @param args list to be mapped
@@ -138,7 +136,6 @@ public class ParallelMapperImpl implements ParallelMapper {
 
     @Override
     public <T, R> List<R> map(Function<? super T, ? extends R> f, List<? extends T> args) throws InterruptedException {
-        //System.err.println("start map");
         if (closeOccur)
             throw new IllegalStateException("mapper already closed");
 

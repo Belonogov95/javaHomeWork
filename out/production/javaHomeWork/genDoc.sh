@@ -7,7 +7,8 @@ linkkkk="-linkoffline http://docs.oracle.com/javase/8/docs/api/ http://docs.orac
 sb="-subpackages info.kgeorgiy.java.advanced.implementor"
 package="ru.ifmo.ctddev.belonogov.implementor"
 
-javadoc $linkkkk -d doc $package $mcp $sb
+
+javadoc $linkkkk -d doc $package $mcp $sb -private
 #-classpath ~/Documents/prog/Java/java-advanced-2015/artifacts/:.
 #javadoc -d doc 
 #-classpath ~/Documents/prog/Java/java-advanced-2015/artifacts/

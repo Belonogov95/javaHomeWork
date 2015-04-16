@@ -30,7 +30,9 @@ import java.util.jar.Manifest;
  */
 
 
+
 public class Main implements JarImpler {
+    //java.util.NavigableSet
     /**
      * This {@link java.util.HashSet} contain information about visited classes. When
      * {@link #recImplemented} method search methods which need to be implemented.
@@ -63,8 +65,10 @@ public class Main implements JarImpler {
      */
 
     public static void main(String[] args) throws ImplerException {
-        new Main().implement(A.class, new File(""));
+        System.err.println("start");
+        new Main().implement(OutputStream.class, new File(""));
         if (true) return;
+        System.err.println("len: " + args.length);
         if (args.length == 1 && args[0] != null)
             try {
                 new Main().implement(Class.forName(args[0]), new File(""));
@@ -86,7 +90,7 @@ public class Main implements JarImpler {
      * Traverses all interfaces that implements or classes that extends {@link java.lang.Class}
      * position and search all declared methods
      * @param position      class from which to start search
-     * @return              ArrayList < Method > which contains information about methods which was declared
+     * @return              {@link java.util.ArrayList } which contains information about methods which was declared
      */
 
     //javadoc -private -d R ru.ifmo.ctddev.belonogov.implementor
@@ -112,7 +116,7 @@ public class Main implements JarImpler {
     /**
      * Traverses all interfaces that implements or classes that extends {@link java.lang.Class} position and search all implemented methods
      * @param position      class from which to start search
-     * @return              {@link java.util.ArrayList < {@link java.lang.reflect.Method } ></>
+     * @return              {@link java.util.ArrayList }
      * which contains information about methods which was implemented
      */
 
@@ -271,6 +275,7 @@ public class Main implements JarImpler {
 
     private void run(Class<?> token, File root) throws ImplerException {
         String className = token.getCanonicalName();
+        System.out.println("name: " + className);
         token.getCanonicalName();
         String path = "";
         try {

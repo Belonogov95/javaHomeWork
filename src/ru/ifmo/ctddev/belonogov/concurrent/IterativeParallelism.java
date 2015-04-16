@@ -2,7 +2,6 @@ package ru.ifmo.ctddev.belonogov.concurrent;
 
 import info.kgeorgiy.java.advanced.concurrent.ListIP;
 import info.kgeorgiy.java.advanced.mapper.ParallelMapper;
-import ru.ifmo.ctddev.belonogov.mapper.ParallelMapperImpl;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -10,50 +9,44 @@ import java.util.List;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
+
 public class IterativeParallelism implements ListIP {
-    /**
-     *
-     */
 
     private ParallelMapper mapper;
 
-    private void run() {
-        int[] data = new int[]{7, 2, 5, 2, 5, 3};
-        ArrayList<Integer> b = new ArrayList<>();
-        for (int aData : data) b.add(aData);
-        try {
-//            Integer x = maximum(2, b, new Comparator<Integer>() {
-//                @Override
-//                public int compare(Integer o1, Integer o2) {
-//                    return o1.compareTo(o2);
-//                }
-//            });
-            List<Integer> list = map(2, b, x -> x + 9);
-
-
-            //System.out.println(list);
-            //System.out.println(concat(2,list));
-
-//            System.out.println("x: " + x);
-            //System.out.println("res: " + concat(2, b));
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-    }
-
-//    public static void main(String[] args) {
-//        //new IterativeParallelism(new ParallelMapperImpl(2, new LinkedList<>())).run();
-//        new IterativeParallelism(new ParallelMapperImpl(2)).run();
+//    private void run() {
+//        int[] data = new int[]{7, 2, 5, 2, 5, 3};
+//        ArrayList<Integer> b = new ArrayList<>();
+//        for (int aData : data) b.add(aData);
+//        try {
+////            Integer x = maximum(2, b, new Comparator<Integer>() {
+////                @Override
+////                public int compare(Integer o1, Integer o2) {
+////                    return o1.compareTo(o2);
+////                }
+////            });
+//            List<Integer> list = map(2, b, x -> x + 9);
+//
+//
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+//
 //    }
+
+    /**
+     * if IterativeParallelism construct with this constructor. When it will create new {@link java.lang.Thread} for
+     * parallel work.
+     */
 
     public IterativeParallelism() {
     }
 
     /**
+     * If IterativeParallelism construct with this constructor. When it will use this mapper for parallel work.
      *
-     *
-     * @param mapper
+     * @param mapper {@link ru.ifmo.ctddev.belonogov.mapper.ParallelMapperImpl} this class will use it for parallel
+     *               job
      */
 
     public IterativeParallelism(ParallelMapper mapper) {
@@ -92,9 +85,9 @@ public class IterativeParallelism implements ListIP {
                 workerArrayList.add(new Worker<R>(i * elementsForThread, Math.min(len, (i + 1) * elementsForThread)) {
                     @Override
                     public void run() {
-                        ArrayList<R> g = new ArrayList<R>();
+                        ArrayList<R> g = new ArrayList<>();
                         for (int i = left; i < right; i++)
-                            g.add((R) action.apply(list.get(i)));
+                            g.add(action.apply(list.get(i)));
                         setResult(combiner.apply(g));
                     }
                 });
@@ -150,7 +143,7 @@ public class IterativeParallelism implements ListIP {
 
     @Override
     public String concat(int threads, List<?> list) throws InterruptedException {
-        Function<Object, String> action = x -> x.toString();
+        Function<Object, String> action = Object::toString;
         Function<List<String>, String> combiner = listS -> {
             StringBuilder sb = new StringBuilder();
             for (String list1 : listS) sb.append(list1);
@@ -218,7 +211,7 @@ public class IterativeParallelism implements ListIP {
     @Override
     public <T, U> List<U> map(int threads, List<? extends T> list, Function<? super T, ? extends U> function) throws InterruptedException {
         Function<T, List<U>> action = x -> {
-            ArrayList<U> result = new ArrayList<U>();
+            ArrayList<U> result = new ArrayList<>();
             result.add(function.apply(x));
             return result;
         };
@@ -232,7 +225,6 @@ public class IterativeParallelism implements ListIP {
         return parallel(threads, list, action, combiner);
     }
 
-    ;
 
 
     /**
@@ -258,7 +250,7 @@ public class IterativeParallelism implements ListIP {
         Function<List<T>, T> combiner = listT -> {
             T result = null;
             for (T aListT : listT) {
-                if (aListT == null)continue;
+                if (aListT == null) continue;
                 if (result == null || comparator.compare(result, aListT) == -1)
                     result = aListT;
             }

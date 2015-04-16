@@ -1,3 +1,3 @@
-xdg-open R/index.html
+xdg-open doc/index.html
 
 

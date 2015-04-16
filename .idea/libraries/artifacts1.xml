@@ -1,9 +1,6 @@
 <component name="libraryTable">
-  <library name="artifacts">
+  <library name="artifacts1">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/java-advanced-2015/artifacts" />
-      <root url="file://$PROJECT_DIR$/java-advanced-2015/lib" />
-      <root url="file://$PROJECT_DIR$/java-advanced-2015/artifacts" />
       <root url="file://$PROJECT_DIR$/java-advanced-2015/artifacts" />
       <root url="file://$PROJECT_DIR$/java-advanced-2015/lib" />
     </CLASSES>
@@ -11,14 +8,9 @@
     <SOURCES>
       <root url="file://$PROJECT_DIR$/java-advanced-2015/java" />
       <root url="file://$PROJECT_DIR$/java-advanced-2015/lib" />
-      <root url="file://$PROJECT_DIR$/java-advanced-2015/lib" />
     </SOURCES>
     <jarDirectory url="file://$PROJECT_DIR$/java-advanced-2015/artifacts" recursive="false" />
-    <jarDirectory url="file://$PROJECT_DIR$/java-advanced-2015/artifacts" recursive="false" />
-    <jarDirectory url="file://$PROJECT_DIR$/java-advanced-2015/artifacts" recursive="false" />
     <jarDirectory url="file://$PROJECT_DIR$/java-advanced-2015/lib" recursive="false" />
-    <jarDirectory url="file://$PROJECT_DIR$/java-advanced-2015/lib" recursive="false" />
-    <jarDirectory url="file://$PROJECT_DIR$/java-advanced-2015/lib" recursive="false" type="SOURCES" />
     <jarDirectory url="file://$PROJECT_DIR$/java-advanced-2015/lib" recursive="false" type="SOURCES" />
   </library>
 </component>
