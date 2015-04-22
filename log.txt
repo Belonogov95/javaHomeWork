@@ -1,0 +1,4 @@
+=== Running test01_singlePage
+create: -----------------------------
+downloaders 100 100 2147483647
+query: http://en.ifmo.ru/en/page/50/Partnership.htm 1

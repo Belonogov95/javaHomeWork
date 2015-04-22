@@ -2,79 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5253ccf3-efc6-4312-9496-d0359f651bc1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WebCrawler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/artifacts1.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/io/OutputStreamImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/.genDoc.sh.swp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/doc/resources/background.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/doc/resources/tab.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/doc/resources/titlebar.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/doc/resources/titlebar_end.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.genDoc.sh.swp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/resources/background.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/resources/tab.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/resources/titlebar.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/resources/titlebar_end.gif" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/concurrent/IterativeParallelism$1.class" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/concurrent/IterativeParallelism$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/concurrent/IterativeParallelism$Worker.class" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/concurrent/IterativeParallelism$Worker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/concurrent/IterativeParallelism.class" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/concurrent/IterativeParallelism.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/implementor/Main$MethodInfo.class" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/implementor/Main$MethodInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/implementor/Main.class" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/implementor/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/Main11.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test8.sh" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/crawler/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/Main.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/mapper/Main1.class" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/mapper/Main1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/mapper/ParallelMapperImpl$Task.class" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/mapper/ParallelMapperImpl$Task.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/mapper/ParallelMapperImpl$Worker.class" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/mapper/ParallelMapperImpl$Worker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/mapper/ParallelMapperImpl.class" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/mapper/ParallelMapperImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java-advanced-2015" afterPath="$PROJECT_DIR$/java-advanced-2015" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/doc/ru/ifmo/ctddev/belonogov/implementor/A.html" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/doc/ru/ifmo/ctddev/belonogov/implementor/A.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/doc/ru/ifmo/ctddev/belonogov/implementor/A.html" afterPath="$PROJECT_DIR$/src/doc/ru/ifmo/ctddev/belonogov/implementor/A.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/doc/ru/ifmo/ctddev/belonogov/implementor/AImpl.html" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/doc/ru/ifmo/ctddev/belonogov/implementor/AImpl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/doc/ru/ifmo/ctddev/belonogov/implementor/AImpl.html" afterPath="$PROJECT_DIR$/src/doc/ru/ifmo/ctddev/belonogov/implementor/AImpl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/doc/ru/ifmo/ctddev/belonogov/implementor/B.html" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/doc/ru/ifmo/ctddev/belonogov/implementor/B.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/doc/ru/ifmo/ctddev/belonogov/implementor/B.html" afterPath="$PROJECT_DIR$/src/doc/ru/ifmo/ctddev/belonogov/implementor/B.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/doc/ru/ifmo/ctddev/belonogov/implementor/C.html" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/doc/ru/ifmo/ctddev/belonogov/implementor/C.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/doc/ru/ifmo/ctddev/belonogov/implementor/C.html" afterPath="$PROJECT_DIR$/src/doc/ru/ifmo/ctddev/belonogov/implementor/C.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/doc/ru/ifmo/ctddev/belonogov/implementor/D.html" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/doc/ru/ifmo/ctddev/belonogov/implementor/D.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/doc/ru/ifmo/ctddev/belonogov/implementor/D.html" afterPath="$PROJECT_DIR$/src/doc/ru/ifmo/ctddev/belonogov/implementor/D.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/concurrent/IterativeParallelism.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/concurrent/IterativeParallelism.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/doc/ru/ifmo/ctddev/belonogov/implementor/Main.MethodInfo.html" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/doc/ru/ifmo/ctddev/belonogov/implementor/Main.MethodInfo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/doc/ru/ifmo/ctddev/belonogov/implementor/Main.MethodInfo.html" afterPath="$PROJECT_DIR$/src/doc/ru/ifmo/ctddev/belonogov/implementor/Main.MethodInfo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/doc/ru/ifmo/ctddev/belonogov/implementor/Main.html" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/doc/ru/ifmo/ctddev/belonogov/implementor/Main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/doc/ru/ifmo/ctddev/belonogov/implementor/Main.html" afterPath="$PROJECT_DIR$/src/doc/ru/ifmo/ctddev/belonogov/implementor/Main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/implementor/Main.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/implementor/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/mapper/Main1.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/mapper/Main1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/mapper/ParallelMapperImpl.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/mapper/ParallelMapperImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/doc/allclasses-frame.html" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/doc/allclasses-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/doc/allclasses-frame.html" afterPath="$PROJECT_DIR$/src/doc/allclasses-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/doc/allclasses-noframe.html" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/doc/allclasses-noframe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/doc/allclasses-noframe.html" afterPath="$PROJECT_DIR$/src/doc/allclasses-noframe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/artifacts.xml" afterPath="$PROJECT_DIR$/.idea/libraries/artifacts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/doc/constant-values.html" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/doc/constant-values.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/doc/constant-values.html" afterPath="$PROJECT_DIR$/src/doc/constant-values.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/doc/deprecated-list.html" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/doc/deprecated-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/doc/deprecated-list.html" afterPath="$PROJECT_DIR$/src/doc/deprecated-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/genDoc.sh" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/genDoc.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/genDoc.sh" afterPath="$PROJECT_DIR$/src/genDoc.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/doc/help-doc.html" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/doc/help-doc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/doc/help-doc.html" afterPath="$PROJECT_DIR$/src/doc/help-doc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/doc/index-all.html" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/doc/index-all.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/doc/index-all.html" afterPath="$PROJECT_DIR$/src/doc/index-all.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/doc/index.html" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/doc/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/doc/index.html" afterPath="$PROJECT_DIR$/src/doc/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaHomeWork.iml" afterPath="$PROJECT_DIR$/javaHomeWork.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/openDoc.sh" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/openDoc.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/openDoc.sh" afterPath="$PROJECT_DIR$/src/openDoc.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/doc/overview-tree.html" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/doc/overview-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/doc/overview-tree.html" afterPath="$PROJECT_DIR$/src/doc/overview-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/doc/ru/ifmo/ctddev/belonogov/implementor/package-frame.html" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/doc/ru/ifmo/ctddev/belonogov/implementor/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/doc/ru/ifmo/ctddev/belonogov/implementor/package-frame.html" afterPath="$PROJECT_DIR$/src/doc/ru/ifmo/ctddev/belonogov/implementor/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/doc/ru/ifmo/ctddev/belonogov/implementor/package-summary.html" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/doc/ru/ifmo/ctddev/belonogov/implementor/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/doc/ru/ifmo/ctddev/belonogov/implementor/package-summary.html" afterPath="$PROJECT_DIR$/src/doc/ru/ifmo/ctddev/belonogov/implementor/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/doc/ru/ifmo/ctddev/belonogov/implementor/package-tree.html" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/doc/ru/ifmo/ctddev/belonogov/implementor/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/doc/ru/ifmo/ctddev/belonogov/implementor/package-tree.html" afterPath="$PROJECT_DIR$/src/doc/ru/ifmo/ctddev/belonogov/implementor/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/doc/stylesheet.css" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/doc/stylesheet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/doc/stylesheet.css" afterPath="$PROJECT_DIR$/src/doc/stylesheet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test7.sh" afterPath="$PROJECT_DIR$/test7.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/crawler/WebCrawler.class" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/crawler/WebCrawler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WebCrawler.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WebCrawler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WorkResult.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WorkResult.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test3.sh" afterPath="$PROJECT_DIR$/test3.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="javaHomeWork.iws" />
@@ -97,14 +33,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WebCrawler.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WebCrawler.java">
+      <file leaf-file-name="Main11.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/Main11.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31437126">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorkResult.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WorkResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+              <folding>
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+                <element signature="e#708#709#0" expanded="true" />
+                <element signature="e#738#739#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebCrawler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WebCrawler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.49401197">
+              <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CachingDownloader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-advanced-2015/java/info/kgeorgiy/java/advanced/crawler/CachingDownloader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test8.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test8.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="179" selection-start-line="1" selection-start-column="179" selection-end-line="1" selection-end-column="179" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,7 +100,17 @@
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/ExtractTask.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DownloadTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/DownloadTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -124,76 +121,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IterativeParallelism.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/concurrent/IterativeParallelism.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DownloadTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/DownloadTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WorkResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WorkResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParallelMapperImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/mapper/ParallelMapperImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/mapper/Main1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="73" column="4" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Downloader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-advanced-2015/java/info/kgeorgiy/java/advanced/crawler/Downloader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CachingDownloader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-advanced-2015/java/info/kgeorgiy/java/advanced/crawler/CachingDownloader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -220,13 +147,23 @@
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/concurrent/IterativeParallelism.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/mapper/ParallelMapperImpl.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/implementor/Main.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/Main.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/mapper/Main1.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WorkResult.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/DownloadTask.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/ExtractTask.java" />
+        <option value="$PROJECT_DIR$/test3.sh" />
+        <option value="$PROJECT_DIR$/test8.sh" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/Main.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/Main11.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WorkResult.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WebCrawler.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="NamedScopeManager">
@@ -260,9 +197,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -312,28 +246,6 @@
               <option name="myItemId" value="belonogov" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaHomeWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaHomeWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="belonogov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -354,28 +266,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="crawler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaHomeWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaHomeWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="belonogov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concurrent" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -410,27 +300,9 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="javaHomeWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaHomeWork" />
+              <option name="myItemId" value="advanced" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java-advanced-2015" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artifacts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebCrawlerTest.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -447,12 +319,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="artifacts" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebCrawlerTest.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="advanced" />
@@ -480,39 +348,12 @@
               <option name="myItemId" value="artifacts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebCrawlerTest.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="advanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaHomeWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaHomeWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java-advanced-2015" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artifacts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -534,7 +375,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Main1">
+  <component name="RunManager" selected="Application.Main11">
     <configuration default="false" name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -543,7 +384,7 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="ru.ifmo.ctddev.belonogov.mapper.Main1" />
-      <option name="VM_PARAMETERS" value="" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -599,6 +440,26 @@
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.ifmo.ctddev.belonogov.crawler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ru.ifmo.ctddev.belonogov.crawler.Main11" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="javaHomeWork" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -755,17 +616,19 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.TestIterativeParallelism" />
       <item index="1" class="java.lang.String" itemvalue="Application.Main1" />
       <item index="2" class="java.lang.String" itemvalue="Application.IterativeParallelism" />
       <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main11" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main1" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main11" />
         <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="2" class="java.lang.String" itemvalue="Application.IterativeParallelism" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main1" />
+        <item index="3" class="java.lang.String" itemvalue="Application.IterativeParallelism" />
       </list>
     </recent_temporary>
   </component>
@@ -796,15 +659,16 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.329429" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="101" y="224" width="1166" height="544" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24816984" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24816984" sideWeight="0.49315068" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24816984" sideWeight="0.5068493" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -812,9 +676,8 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39971346" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32808024" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="101" y="180" width="1166" height="544" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30945557" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2679083" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -871,34 +734,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/mapper/Main1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-advanced-2015/java/info/kgeorgiy/java/advanced/mapper/ListMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-advanced-2015/java/info/kgeorgiy/java/advanced/mapper/ParallelMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-advanced-2015/java/info/kgeorgiy/java/advanced/concurrent/ListIP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-advanced-2015/java/info/kgeorgiy/java/advanced/concurrent/ListIPTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1060,13 +895,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-advanced-2015/java/info/kgeorgiy/java/advanced/base/BaseTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/java-advanced-2015/lib/junit-4.11.jar!/org/junit/runner/JUnitCore.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -1148,15 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1164,15 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-advanced-2015/java/info/kgeorgiy/java/advanced/crawler/CachingDownloader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1180,7 +990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1188,23 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="73" column="4" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WorkResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/DownloadTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1212,7 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1224,18 +1015,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test8.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="179" selection-start-line="1" selection-start-column="179" selection-end-line="1" selection-end-column="179" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test3.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.027985075">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-advanced-2015/java/info/kgeorgiy/java/advanced/base/BaseTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4477612">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-advanced-2015/java/info/kgeorgiy/java/advanced/crawler/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19589552">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-advanced-2015/java/info/kgeorgiy/java/advanced/crawler/CheckingDownloader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47574627">
+          <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/Main11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-advanced-2015/java/info/kgeorgiy/java/advanced/crawler/CachingDownloader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/DownloadTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/ExtractTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WorkResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+          <folding>
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WebCrawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31437126">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.49401197">
+          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

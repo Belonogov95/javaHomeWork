@@ -6,15 +6,16 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * Created by vanya on 15.04.15.
  */
-class WorkResult {
+public class WorkResult {
 //    private int balance;
     private AtomicInteger balance;
 
     private ArrayList<String> pages;
 
+
     public WorkResult() {
         pages = new ArrayList<>();
-        balance.set(0);
+        balance = new AtomicInteger(0);
     }
 
     public void inc() {
@@ -33,5 +34,9 @@ class WorkResult {
     public ArrayList<String> getResult() {
         return pages;
     }
+    public int getBalance() {
+        return balance.intValue();
+    }
+
 }
 
