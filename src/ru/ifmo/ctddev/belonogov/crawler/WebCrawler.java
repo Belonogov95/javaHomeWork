@@ -1,15 +1,13 @@
 package ru.ifmo.ctddev.belonogov.crawler;
 
-import info.kgeorgiy.java.advanced.crawler.Crawler;
-import info.kgeorgiy.java.advanced.crawler.Downloader;
-import info.kgeorgiy.java.advanced.crawler.Document;
-import info.kgeorgiy.java.advanced.crawler.URLUtils;
+import info.kgeorgiy.java.advanced.crawler.*;
 
-import javax.jws.WebResult;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.util.*;
+import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.LinkedBlockingQueue;
 
 /**
  * Created by vanya on 08.04.15.
@@ -17,40 +15,38 @@ import java.util.concurrent.ConcurrentHashMap;
 public class WebCrawler implements Crawler {
     //private final HashMap<String, Queue<DownloadTask>> downloadQueue;
 //    private final HashMap<String, Integer> numberOfDownloads;
+//    private final Queue<ExtractTask> extractQueue;
 
-    private final ConcurrentHashMap <String, Queue<DownloadTask>> downloadQueue;
-    private final Queue<ExtractTask> extractQueue;
-    private final ConcurrentHashMap<String, Integer> numberOfDownloads;
+    private final ConcurrentHashMap<String, Queue<DownloadTask>> downloadQueue; /// set queue for given host
+    private final BlockingQueue<ExtractTask> extractQueue;
+    private final ConcurrentHashMap<String, Integer> numberOfDownloads; // number Downloads for given host
     private int perHost;
     private Downloader downloader;
     private boolean closed;
-    private ArrayList < Thread > allThread;
-
+    private ArrayList<Thread> allThread;
+    private final int QUEUE_SIZE = 100000;
 
     private class MyLoader implements Runnable {
 
         @Override
         public void run() {
             while (true) {
-                DownloadTask downloadTask;
                 String key;
-                if (closed) return;
+                DownloadTask downloadTask = null;
                 synchronized (downloadQueue) {
-                    while (true) {
+                    while (!downloadQueue.isEmpty())
                         try {
                             downloadQueue.wait();
                         } catch (InterruptedException e) {
-                            return;
-                            //assert (false);
+                            e.printStackTrace();
                         }
-                        /// possible dead lock
+                    if (closed) return;
+                    while (true) {
                         key = null;
-                        synchronized (numberOfDownloads) {
-                            for (Map.Entry<String, Queue<DownloadTask>> x : downloadQueue.entrySet()) {
-                                if (!numberOfDownloads.containsKey(x.getKey()) || numberOfDownloads.get(x.getKey()) < perHost) {
-                                    key = x.getKey();
-                                    break;
-                                }
+                        for (Map.Entry<String, Queue<DownloadTask>> x : downloadQueue.entrySet()) {
+                            if (!numberOfDownloads.containsKey(x.getKey()) || numberOfDownloads.get(x.getKey()) < perHost) {
+                                key = x.getKey();
+                                break;
                             }
                         }
                         if (key != null) {
@@ -58,18 +54,16 @@ public class WebCrawler implements Crawler {
                             if (downloadQueue.get(key).size() == 0) {
                                 downloadQueue.remove(key);
                             }
-                            break;
                         }
+                        break;
                     }
                 }
 //                System.err.println("-download Task: " + downloadTask.getUrl());
                 Document doc = null;
-                synchronized (numberOfDownloads) {
-                    if (!numberOfDownloads.containsKey(key)) {
-                        numberOfDownloads.put(key, 0);
-                    }
-                    numberOfDownloads.put(key, numberOfDownloads.get(key) + 1);
+                if (!numberOfDownloads.containsKey(key)) {
+                    numberOfDownloads.put(key, 0);
                 }
+                numberOfDownloads.put(key, numberOfDownloads.get(key) + 1);
 
                 try {
                     doc = downloader.download(downloadTask.getUrl());
@@ -78,23 +72,19 @@ public class WebCrawler implements Crawler {
                     //assert (false);
                 }
 //                System.err.println("-finish");
-                synchronized (numberOfDownloads) {
-                    //assert(numberOfDownloads.get(key) > 0);
-                    numberOfDownloads.put(key, numberOfDownloads.get(key) - 1);
-                    if (numberOfDownloads.get(key) == 0) {
-                        numberOfDownloads.remove(key);
-                    }
+                //assert(numberOfDownloads.get(key) > 0);
+                numberOfDownloads.put(key, numberOfDownloads.get(key) - 1);
+                if (numberOfDownloads.get(key) == 0) {
+                    numberOfDownloads.remove(key);
                 }
 
 //                System.err.println("depth " + downloadTask.getDepth());
                 if (downloadTask.getDepth() > 1) {
                     downloadTask.getResult().inc();
-                    synchronized (extractQueue) {
-                        extractQueue.add(new ExtractTask(doc, downloadTask.getDepth() - 1, downloadTask.getResult()));
-                        System.err.println("1");
-                        extractQueue.notify();
-                        System.err.println("2");
-                    }
+                    extractQueue.add(new ExtractTask(doc, downloadTask.getDepth() - 1, downloadTask.getResult()));
+                    System.err.println("1");
+                    extractQueue.notify();
+                    System.err.println("2");
                 }
 //                System.err.println("add and notify");
                 downloadTask.getResult().dec();
@@ -106,7 +96,6 @@ public class WebCrawler implements Crawler {
                         result.notify();
                     }
                 }
-
 
 
 //                System.err.println("downloadTaks get result " + downloadTask.getResult().getBalance());
@@ -135,7 +124,7 @@ public class WebCrawler implements Crawler {
                     }
                     ExtractTask extractTask = extractQueue.poll();
                     System.err.println("extr task " + extractTask.getDocument().toString());
-                    List < String > links = null;
+                    List<String> links = null;
                     try {
                         links = extractTask.getDocument().extractLinks();
                     } catch (IOException e) {
@@ -143,10 +132,8 @@ public class WebCrawler implements Crawler {
                     }
 
 
-                    synchronized (downloadQueue) {
-                        for (String s: links) {
-                            addPage(new DownloadTask(s, extractTask.getDepth(), extractTask.getWorkResult()));
-                        }
+                    for (String s : links) {
+                        addPage(new DownloadTask(s, extractTask.getDepth(), extractTask.getWorkResult()));
                     }
                     extractTask.getWorkResult().dec();
 
@@ -163,8 +150,8 @@ public class WebCrawler implements Crawler {
     }
 
     void addPage(DownloadTask downloadTask) {
+        String host = null;
         synchronized (downloadQueue) {
-            String host = null;
             try {
                 host = URLUtils.getHost(downloadTask.getUrl());
                 if (!downloadQueue.containsKey(host)) {
@@ -191,7 +178,7 @@ public class WebCrawler implements Crawler {
         this.closed = false;
         downloadQueue = new ConcurrentHashMap<>();
         numberOfDownloads = new ConcurrentHashMap<>();
-        extractQueue = new LinkedList<>();
+        extractQueue = new LinkedBlockingQueue<>(QUEUE_SIZE);
         allThread = new ArrayList<>();
 
         for (int i = 0; i < downloaders; i++) {
@@ -207,7 +194,7 @@ public class WebCrawler implements Crawler {
     }
 
     @Override
-    public List<String> download(String url, int depth) throws IOException {
+    public Result download(String url, int depth) {
         System.err.println("query: " + url + " " + depth);
         //assert (false);
         //System.err.println("query: " + url + " " + depth);
@@ -226,7 +213,8 @@ public class WebCrawler implements Crawler {
                     //assert(false);
                 }
             }
-            return workResult.getResult();
+//            return workResult.getResult();
+            return new Result(workResult.getResult(), null);
         }
     }
 
@@ -239,7 +227,7 @@ public class WebCrawler implements Crawler {
         synchronized (extractQueue) {
             extractQueue.clear();
         }
-        for (Thread x: allThread)
+        for (Thread x : allThread)
             x.interrupt();
     }
 
