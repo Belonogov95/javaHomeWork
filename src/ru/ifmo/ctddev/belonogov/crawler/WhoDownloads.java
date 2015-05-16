@@ -15,8 +15,8 @@ public class WhoDownloads implements Runnable {
 
     @Override
     public void run() {
-        assert(webCrawler.hostStatus.containsKey(host));
-        HostQueue hostQueue = webCrawler.hostStatus.get(host);
+        assert(webCrawler.getHostStatus().containsKey(host));
+        HostQueue hostQueue = webCrawler.getHostStatus().get(host);
         assert(!hostQueue.getQueue().isEmpty());
         DownloadTask task = hostQueue.getQueue().poll();
         hostQueue.setIsInExecutorQueue(false);
@@ -25,11 +25,11 @@ public class WhoDownloads implements Runnable {
         assert(task != null);
         Document document;
         try {
-            document = webCrawler.downloader.download(task.getUrl());
+            document = webCrawler.getDownloader().download(task.getUrl());
             task.getMyResult().getDownloadedPages().add(task.getUrl());
             if (task.getDepth() - 1 > 0) {
                 task.getMyResult().incCountInQueue();
-                webCrawler.extractorsPool.execute(new WhoExtracts(webCrawler, new ExtractTask(document, task.getDepth() - 1, task.getMyResult())));
+                webCrawler.getExtractorsPool().execute(new WhoExtracts(webCrawler, new ExtractTask(document, task.getDepth() - 1, task.getMyResult())));
             }
         } catch (IOException e) {
             task.getMyResult().getErrors().put(task.getUrl(), e);

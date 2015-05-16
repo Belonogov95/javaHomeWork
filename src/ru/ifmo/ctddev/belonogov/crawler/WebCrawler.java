@@ -9,14 +9,30 @@ import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class WebCrawler implements Crawler {
-    ExecutorService downloadersPool;
-    ExecutorService extractorsPool;
-    Downloader downloader;
-    ConcurrentHashMap < String, HostQueue > hostStatus;
-    ConcurrentHashMap < String, Boolean > viewedPages;
-    ConcurrentHashMap < MyResult, Boolean > allMyResults;
-    BlockingQueue < Runnable > downloadQueue;
-    int perHost;
+    private ExecutorService downloadersPool;
+    private ExecutorService extractorsPool;
+    private Downloader downloader;
+    private ConcurrentHashMap < String, HostQueue > hostStatus;
+    private ConcurrentHashMap < String, Boolean > viewedPages;
+    private ConcurrentHashMap < MyResult, Boolean > allMyResults;
+    private BlockingQueue < Runnable > downloadQueue;
+    private int perHost;
+
+    public Downloader getDownloader() {
+        return downloader;
+    }
+
+    public ConcurrentHashMap<String, HostQueue> getHostStatus() {
+        return hostStatus;
+    }
+
+    public ExecutorService getExtractorsPool() {
+        return extractorsPool;
+    }
+
+    public ExecutorService getDownloadersPool() {
+        return downloadersPool;
+    }
 
     public WebCrawler(Downloader downloader, int downloaders, int extractors, int perHost) {
         this.perHost = perHost;
@@ -54,6 +70,7 @@ public class WebCrawler implements Crawler {
 
     @Override
     public Result download(String url, int depth) {
+        System.err.println(url);
         MyResult myResult = new MyResult();
         allMyResults.put(myResult, true);
         addDownloadTask(url, depth, myResult);
@@ -86,7 +103,41 @@ public class WebCrawler implements Crawler {
                 myResult.notify();
             }
         }
+ }
 
+// ExecutorService downloadersPool;
+//    ExecutorService extractorsPool;
+//    Downloader downloader;
+//    ConcurrentHashMap < String, HostQueue > hostStatus;
+//    ConcurrentHashMap < String, Boolean > viewedPages;
+//    ConcurrentHashMap < MyResult, Boolean > allMyResults;
+//    BlockingQueue < Runnable > downloadQueue;
+//    int perHost;
+
+
+    public static void main(String [] args) {
+        String url = args[0];
+        int downloaders = Integer.MAX_VALUE;
+        int extractors = Integer.MAX_VALUE;
+        int perHost= Integer.MAX_VALUE;
+        int depth = 1;
+        if (args.length >= 2 && args[1] != null) {
+            downloaders = Integer.valueOf(args[1]);
+        }
+        if (args.length >= 3 && args[2] != null) {
+            extractors = Integer.valueOf(args[2]);
+        }
+        if (args.length >= 4 && args[3] != null) {
+            perHost = Integer.valueOf(args[3]);
+        }
+        try {
+            System.err.println("url : " + url);
+            WebCrawler wc = new WebCrawler(new CachingDownloader(), downloaders, extractors, perHost);
+            wc.download(url, 1);
+            wc.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public void updateHost(String host) {
