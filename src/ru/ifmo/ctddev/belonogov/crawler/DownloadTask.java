@@ -1,8 +1,5 @@
 package ru.ifmo.ctddev.belonogov.crawler;
 
-/**
- * Created by vanya on 15.05.15.
- */
 public class DownloadTask {
     private String url;
     private int depth;

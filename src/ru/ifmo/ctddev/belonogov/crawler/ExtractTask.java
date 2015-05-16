@@ -2,9 +2,6 @@ package ru.ifmo.ctddev.belonogov.crawler;
 
 import info.kgeorgiy.java.advanced.crawler.Document;
 
-/**
- * Created by vanya on 15.05.15.
- */
 public class ExtractTask {
     private Document document;
     private int depth;

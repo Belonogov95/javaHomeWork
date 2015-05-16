@@ -6,11 +6,6 @@ import info.kgeorgiy.java.advanced.crawler.Downloader;
 import java.io.IOException;
 
 public class Main11 {
-    /**
-     *
-     * @param args
-     * @throws IOException
-     */
 
     public static void main(String[] args) throws IOException {
 //        assert(false);

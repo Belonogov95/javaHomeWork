@@ -1,16 +1,9 @@
 package ru.ifmo.ctddev.belonogov.crawler;
 
 import info.kgeorgiy.java.advanced.crawler.Document;
-import info.kgeorgiy.java.advanced.crawler.Result;
 
 import java.io.IOException;
-import java.util.Map;
-import java.util.Set;
-import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * Created by vanya on 15.05.15.
- */
 public class WhoDownloads implements Runnable {
     private String host;
     private WebCrawler webCrawler;
@@ -29,7 +22,6 @@ public class WhoDownloads implements Runnable {
         hostQueue.setIsInExecutorQueue(false);
         webCrawler.updateHost(host);
 
-        //System.err.println("task: " + task);
         assert(task != null);
         Document document;
         try {

@@ -8,9 +8,6 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * Created by vanya on 08.04.15.
- */
 public class WebCrawler implements Crawler {
     ExecutorService downloadersPool;
     ExecutorService extractorsPool;
@@ -22,13 +19,9 @@ public class WebCrawler implements Crawler {
     int perHost;
 
     public WebCrawler(Downloader downloader, int downloaders, int extractors, int perHost) {
-//        System.err.println("downloaders: " + downloaders);
-//        System.err.println("extractors : " + extractors);
-//        System.err.println("perHost    : " + perHost);
         this.perHost = perHost;
         this.downloader = downloader;
         downloadQueue = new LinkedBlockingQueue<>();
-//        downloadersPool = new ThreadPoolExecutor(downloaders, downloaders, 1, TimeUnit.SECONDS, downloadQueue);
         downloadersPool = new ThreadPoolExecutor(downloaders, downloaders, 1, TimeUnit.SECONDS, downloadQueue);
         extractorsPool = Executors.newFixedThreadPool(extractors);
         hostStatus = new ConcurrentHashMap<>();
@@ -46,12 +39,11 @@ public class WebCrawler implements Crawler {
         try {
             host = URLUtils.getHost(url);
         } catch (MalformedURLException e) {
-            assert(false);
             e.printStackTrace();
         }
-
+        assert(host != null);
         if (!hostStatus.containsKey(host)) {
-            hostStatus.put(host, new HostQueue(new AtomicInteger(perHost), new ConcurrentLinkedQueue<DownloadTask>()));
+            hostStatus.put(host, new HostQueue(new AtomicInteger(perHost), new ConcurrentLinkedQueue<>()));
         }
         HostQueue hostQueue = hostStatus.get(host);
         myResult.incCountInQueue();
@@ -62,7 +54,6 @@ public class WebCrawler implements Crawler {
 
     @Override
     public Result download(String url, int depth) {
-//        System.err.println("url depth: " + url + " " + depth);
         MyResult myResult = new MyResult();
         allMyResults.put(myResult, true);
         addDownloadTask(url, depth, myResult);
@@ -76,7 +67,6 @@ public class WebCrawler implements Crawler {
                 }
             }
             Map < String, IOException > map = new TreeMap<>();
-//            Set< Map.Entry < String, IOException > > x = myResult.getErrors().entrySet();
             for (Map.Entry < String, IOException > tmp: myResult.getErrors().entrySet())
                 map.put(tmp.getKey(), tmp.getValue());
             allMyResults.remove(myResult);
@@ -110,20 +100,20 @@ public class WebCrawler implements Crawler {
             }
         }
     }
-
-    public int getSumInHostQueue() {
-        int sum = 0;
-        for (Map.Entry <String, HostQueue > tmp: hostStatus.entrySet())
-            sum += tmp.getValue().getQueue().size();
-        return sum;
-    }
-
-    public int getSumInExecuteQueue() {
-        int sum = 0;
-        for (Map.Entry <String, HostQueue > tmp: hostStatus.entrySet())
-            if (!tmp.getValue().isInExecutorQueue())
-                sum++;
-        return sum;
-    }
+//
+//    public int getSumInHostQueue() {
+//        int sum = 0;
+//        for (Map.Entry <String, HostQueue > tmp: hostStatus.entrySet())
+//            sum += tmp.getValue().getQueue().size();
+//        return sum;
+//    }
+//
+//    public int getSumInExecuteQueue() {
+//        int sum = 0;
+//        for (Map.Entry <String, HostQueue > tmp: hostStatus.entrySet())
+//            if (!tmp.getValue().isInExecutorQueue())
+//                sum++;
+//        return sum;
+//    }
 
 }

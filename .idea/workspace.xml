@@ -1,28 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5253ccf3-efc6-4312-9496-d0359f651bc1" name="Default" comment="test">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/HostQueue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/MyResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WhoDownloads.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WhoExtracts.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/vanya.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/crawler/WebCrawler$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/crawler/WebCrawler$MyExtract.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/crawler/WebCrawler$MyLoader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/crawler/WorkResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WorkResult.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/crawler/DownloadTask.class" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/crawler/DownloadTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/crawler/ExtractTask.class" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/crawler/ExtractTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/crawler/Main11$1.class" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/crawler/Main11$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/crawler/Main11.class" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/crawler/Main11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/crawler/WebCrawler.class" afterPath="$PROJECT_DIR$/out/production/javaHomeWork/ru/ifmo/ctddev/belonogov/crawler/WebCrawler.class" />
+    <list default="true" id="5253ccf3-efc6-4312-9496-d0359f651bc1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/DownloadTask.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/DownloadTask.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/ExtractTask.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/ExtractTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/HostQueue.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/HostQueue.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/Main11.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/Main11.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/MyResult.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/MyResult.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WebCrawler.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WebCrawler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log.txt" afterPath="$PROJECT_DIR$/log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test8.sh" afterPath="$PROJECT_DIR$/test8.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WhoDownloads.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WhoDownloads.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WhoExtracts.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WhoExtracts.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="javaHomeWork.iws" />
@@ -46,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WebCrawler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WebCrawler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WebCrawler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49281314">
-              <caret line="31" column="72" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="118" column="1" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,12 +49,13 @@
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/MyResult.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1015#1016#0" expanded="true" />
-                <element signature="e#1061#1062#0" expanded="true" />
-                <element signature="e#1181#1182#0" expanded="true" />
+                <element signature="e#970#971#0" expanded="true" />
+                <element signature="e#1016#1017#0" expanded="true" />
+                <element signature="e#1069#1070#0" expanded="true" />
+                <element signature="e#1136#1137#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/Main11.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -87,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WhoExtracts.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/ExtractTask.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -109,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WhoDownloads.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,25 +109,25 @@
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/HostQueue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#757#758#0" expanded="true" />
-                <element signature="e#805#806#0" expanded="true" />
-                <element signature="e#976#977#0" expanded="true" />
-                <element signature="e#1016#1017#0" expanded="true" />
-                <element signature="e#1054#1055#0" expanded="true" />
-                <element signature="e#1097#1098#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+                <element signature="e#907#908#0" expanded="true" />
+                <element signature="e#947#948#0" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
+                <element signature="e#1028#1029#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DownloadTask.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DownloadTask.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/DownloadTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.18480493">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -182,14 +170,14 @@
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/Main.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WorkResult.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/ExtractTAsk.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/ExtractTask.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/HostQueue.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/DownloadTask.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WebCrawler.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WhoDownloads.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WhoExtracts.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/MyResult.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/Main11.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WhoExtracts.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WhoDownloads.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WebCrawler.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/HostQueue.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/ExtractTask.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/DownloadTask.java" />
       </list>
     </option>
   </component>
@@ -699,7 +687,7 @@
       <option name="number" value="Default" />
       <updated>1427286861365</updated>
       <workItem from="1431680758308" duration="13942000" />
-      <workItem from="1431754783214" duration="13277000" />
+      <workItem from="1431754783214" duration="13745000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1431680995401</created>
@@ -707,11 +695,17 @@
       <option name="project" value="LOCAL" />
       <updated>1431680995401</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="WH 8 done">
+      <created>1431770251972</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1431770251972</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27219000" />
+    <option name="totallyTimeSpent" value="27687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
@@ -787,7 +781,8 @@
       <path value="$PROJECT_DIR$/java-advanced-2015" />
     </ignored-roots>
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="WH 8 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="WH 8 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1108,54 +1103,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/HostQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WhoExtracts.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1054#1055#0" expanded="true" />
-            <element signature="e#1097#1098#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/DownloadTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WhoDownloads.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/ExtractTask.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WebCrawler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
+          <caret line="118" column="1" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WhoExtracts.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/MyResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1163,31 +1150,40 @@
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/Main11.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/MyResult.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/HostQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1015#1016#0" expanded="true" />
-            <element signature="e#1061#1062#0" expanded="true" />
-            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/WebCrawler.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/ExtractTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49281314">
-          <caret line="31" column="72" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/belonogov/crawler/DownloadTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18480493">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

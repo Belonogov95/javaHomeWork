@@ -1,19 +1,15 @@
 package ru.ifmo.ctddev.belonogov.crawler;
 
-import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * Created by vanya on 15.05.15.
- */
 public class HostQueue {
     private AtomicInteger countFreeSpace;
-    private ConcurrentLinkedQueue < DownloadTask > queue;
+    private ConcurrentLinkedQueue<DownloadTask> queue;
     private boolean isInExecutorQueue;
 
 
-    public HostQueue(AtomicInteger countFreeSpace, ConcurrentLinkedQueue <DownloadTask > queue) {
+    public HostQueue(AtomicInteger countFreeSpace, ConcurrentLinkedQueue<DownloadTask> queue) {
         this.countFreeSpace = countFreeSpace;
         this.queue = queue;
         this.isInExecutorQueue = false;
@@ -29,7 +25,7 @@ public class HostQueue {
     }
 
     public void decCountFreeSpace() {
-        assert(countFreeSpace.get() > 0);
+        assert (countFreeSpace.get() > 0);
         countFreeSpace.decrementAndGet();
     }
 

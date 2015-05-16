@@ -7,12 +7,9 @@ import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * Created by vanya on 15.05.15.
- */
 public class MyResult {
-    private List< String > downloadedPages;
-    private ConcurrentHashMap < String, IOException > errors;
+    private List<String> downloadedPages;
+    private ConcurrentHashMap<String, IOException> errors;
     AtomicInteger countInQueue;
 
     MyResult() {
@@ -36,6 +33,7 @@ public class MyResult {
     public void incCountInQueue() {
         countInQueue.incrementAndGet();
     }
+
     public void decCountInQueue() {
         countInQueue.decrementAndGet();
     }
