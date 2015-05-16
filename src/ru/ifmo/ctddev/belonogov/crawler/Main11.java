@@ -13,6 +13,7 @@ public class Main11 {
      */
 
     public static void main(String[] args) throws IOException {
+//        assert(false);
         WebCrawler webCrawler = new WebCrawler(new Downloader() {
             @Override
             public Document download(String url) throws IOException {
@@ -20,7 +21,8 @@ public class Main11 {
             }
         }, 1, 1, 1);
 
+        webCrawler.close();
 
-        webCrawler.download("https://www.google.ru", 3);
+        //webCrawler.download("https://www.google.ru", 3);
     }
 }
