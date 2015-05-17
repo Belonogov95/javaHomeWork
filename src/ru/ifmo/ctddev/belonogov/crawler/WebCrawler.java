@@ -105,14 +105,7 @@ public class WebCrawler implements Crawler {
         }
  }
 
-// ExecutorService downloadersPool;
-//    ExecutorService extractorsPool;
-//    Downloader downloader;
-//    ConcurrentHashMap < String, HostQueue > hostStatus;
-//    ConcurrentHashMap < String, Boolean > viewedPages;
-//    ConcurrentHashMap < MyResult, Boolean > allMyResults;
-//    BlockingQueue < Runnable > downloadQueue;
-//    int perHost;
+
 
 
     public static void main(String [] args) {
